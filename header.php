@@ -19,9 +19,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand"><img src="img/navbar/logo.png" alt=""></a>
+                    <a class="navbar-brand smoothScroll" href="#"><img src="img/navbar/logo.png" alt=""></a>
                 </div>
-
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav pull-right">
                         <li class="active"><a class="vertical-align smoothScroll" href="#">Inicio</a></li>
