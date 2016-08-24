@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<div class="wrapper">
+<div class="wrapper index">
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* BANNER  */-->
@@ -95,7 +95,7 @@
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <!--/* NUESTROS AFILIADOS  */-->
+    <!--/* SERVICIOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="servicios" id="servicios">
@@ -139,7 +139,7 @@
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <!--/* NUESTROS AFILIADOS  */-->
+    <!--/* BLOG  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="blog light-spacing" id="blog">
@@ -300,7 +300,7 @@
                             </p>
                         </div>
                         <div class="col-sm-12 col-xs-5">
-                            <div class="text-right">
+                            <div class="text-center">
                                 <a href=""><img src="img/icons/fb.png" alt="facebook"></a>
                                 <a href=""><img src="img/icons/yt.png" alt="Youtube"></a>
                             </div>
