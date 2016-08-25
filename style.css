@@ -98,7 +98,7 @@ a {
 }
 
 .video iframe {
-    width: 600px;
+    width: 90%;
     height: 400px;
     max-height: 100%;
     max-width: 100%;
@@ -111,14 +111,13 @@ a {
     line-height: 60px;
     color: #fff;
     font-size: 20px;
-    background-color: #9ecb3b;
+    background-color: #2c508c;
     border: 0;
     max-width: 100%;
-
 }
 
 .video button:hover {
-    background-color: #8bb234;
+    background-color: #24356a;
 }
 
 
@@ -642,14 +641,14 @@ footer .footer-top .right {
     height: auto;
 }
 
-footer .footer-top .right .mark {
+footer .footer-top .right .mark-img {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #24356a;
 }
 
-footer .footer-top .right .mark::before {
+footer .footer-top .right .mark-img::before {
     position: absolute;
     content: '';
     display: inline-block;
@@ -720,66 +719,81 @@ footer .footer-top .right .address a {
 
 .foro .banner .container {
     height: 100%;
+    position: relative;
 }
 
-.foro .banner .container .carousel-inner {
-    height: 30%;
+.foro .banner .container .carousel {
+    position: relative;
+    height: 50%;
 }
 
-.foro .banner .container .carousel-inner .item p {
+.foro .banner .container .carousel .carousel-inner {
+    position: relative;
+    height: 60%;
+}
+
+.foro .banner .container .carousel .carousel-inner .item {
+    top: 60%;
+    margin-left: 50px;
+}
+
+.foro .banner .container .carousel .carousel-inner .item p {
     font-family: 'Avian', sans-serif;
     font-weight: 700;
     font-size: 28px;
     color: #fcf9f9;
-    margin-top: 100px;
-    margin-left: 50px;
 }
 
-.foro .banner .container .indicators {
+.foro .banner .container .carousel .indicators {
     position: relative;
-    height: 10%;
+    height: 40%;
 }
 
-.foro .banner .container .indicators .carousel-indicators {
+.foro .banner .container .carousel .indicators .carousel-indicators {
     position: absolute;
+    top: 20px;
     left: 0;
     z-index: 15;
     width: auto;
     margin-left: 50px;
 }
 
-.foro .banner .container .indicators .carousel-indicators li {
+.foro .banner .container .carousel .indicators .carousel-indicators li {
     height: 22px;
     width: 22px;
     margin: 0 3px;
 }
 
 .foro .banner .container .banner-logo {
-    height: 60%;
+    height: 50%;
 }
 
-.foro .banner .container .banner-logo img {
+.foro .banner .container .banner-logo .image-container {
+    position: relative;
+    height: 90%;
+}
+
+.foro .banner .container .banner-logo .image-container img {
     position: absolute;
-    bottom: 50px;
+    bottom: 0;
     left: 0;
     right: 0;
     margin: 0 auto;
+    max-height: 90%;
+    min-width: none;
 }
 
 
 /* CONOCE */
-.foro .conoce {
-
-}
-
-.foro .conoce .col-sm-6 {
+.foro .conoce .conoce-title {
     height: 300px;
 }
 
-.foro .conoce .col-sm-6 .video-side {
+.foro .conoce .video-side {
+    height: 300px;
 }
 
-.foro .conoce p {
+.foro .conoce .conoce-title p {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     color: #24356a;
@@ -1157,6 +1171,7 @@ footer .footer-top .right .address a {
     footer .footer-top .center .social img {
         margin-top: 15px;
         margin-bottom: 15px;
+        height: 50px;
     }
 
     footer .footer-top .right {
@@ -1164,12 +1179,12 @@ footer .footer-top .right .address a {
         margin-top: 0;
     }
 
-    footer .footer-top .right .mark {
+    footer .footer-top .right .mark-img {
         font-size: 16px;
         margin-left: 10px;
     }
 
-    footer .footer-top .right .mark::before {
+    footer .footer-top .right .mark-img::before {
         left: 0;
     }
 
@@ -1267,26 +1282,18 @@ footer .footer-top .right .address a {
         height: calc(100vh - 50px);
     }
 
-    .foro .banner .container .carousel-inner .item p {
-        font-size: 22px;
-        margin-top: 100px;
-        margin-left: 50px;
+    .foro .banner .container .carousel .carousel-inner .item {
+        top: 60%;
     }
 
-    .foro .banner .container .indicators .carousel-indicators li {
+    .foro .banner .container .carousel .carousel-inner .item p {
+        font-size: 22px;
+    }
+
+    .foro .banner .container .carousel .indicators .carousel-indicators li {
         height: 20px;
         width: 20px;
         margin: 0 3px;
-    }
-
-    .foro .banner .container .banner-logo {
-        position: relative;
-        height: 60%;
-    }
-
-    .foro .banner .container .banner-logo img {
-        max-height: 70%;
-        bottom: 30px;
     }
 
     /* CONOCE */
@@ -1294,10 +1301,6 @@ footer .footer-top .right .address a {
         font-size: 24px;
         margin-left: 30px;
         margin-right: 30px;
-    }
-
-    .foro .video-side .image-container {
-
     }
 
     /* CONOCE-PARALLAX */
@@ -1351,6 +1354,95 @@ footer .footer-top .right .address a {
 
 
     @media(max-width: 480px) {
+        /* FORO */
+        /* BANNER */
+        .foro .banner {
+            height: calc(100vh - 50px);
+        }
 
+        .foro .banner .container .carousel .carousel-inner .item {
+            top: 60%;
+            margin-left: 30px;
+        }
+
+        .foro .banner .container .carousel .carousel-inner .item p {
+            font-size: 12px;
+        }
+
+        .foro .banner .container .carousel .indicators .carousel-indicators {
+            margin-left: 30px;
+        }
+
+        .foro .banner .container .carousel .indicators .carousel-indicators li {
+            height: 16px;
+            width: 16px;
+            margin: 0 2px;
+        }
+
+        /* CONOCE */
+        .foro .conoce .conoce-title {
+            height: 150px;
+        }
+
+        .foro .conoce .video-side {
+            height: 200px;
+        }
+
+        .foro .conoce .conoce-title p {
+            font-size: 16px;
+        }
+
+
+        /* CONOCE-PARALLAX */
+        .foro .conoce-parallax {
+            height: 300px;
+        }
+
+        .foro .conoce-parallax .container p {
+            font-size: 16px;
+        }
+
+        .foro .conoce-parallax .container a {
+            width: 180px;
+            height: 40px;
+            font-size: 10px;
+            line-height: 40px;
+        }
+        
+
+        /* PROYECTOS */
+        .foro .proyectos .container p {
+            font-size: 16px;
+        }
+
+        .foro .proyectos .container p::after {
+            width: 80px;
+        }
+
+
+        /* HISTORIAS */
+        .foro .historias-parallax {
+            min-height: 200px;
+        }
+
+        .foro .historias-parallax .col-sm-6 {
+            min-height: 100px;
+        }
+
+        .foro .historias-parallax .right-side a {
+            width: 180px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            font-size: 12px;
+            line-height: 40px;
+        }
+
+        .foro .historias-parallax .left-side p {
+            font-size: 18px;
+        }
+
+        .foro .historias-parallax .left-side p::after {
+            width: 80px;
+        }
     }
-}

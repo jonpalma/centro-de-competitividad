@@ -1,5 +1,6 @@
+<?php $page = 'foro'; ?>
 <?php include('header.php'); ?>
-<div class="wrapper foro">
+<div class="wrapper foro" id="foro">
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* BANNER  */-->
@@ -7,29 +8,33 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="banner" id="banner">
         <div class="container">
-            <div class="carousel-inner" role="listbox">
-                <!-- Items -->
-                <div class="item active">
-                    <div>
-                        <p>TRABAJAMOS EN EQUIPO Y<br/>OBTENEMOS LOGROS EXTRAORDINARIOS.</p>
-                    </div> 
-                </div>
-                <div class="item">
-                    <div>
-                        <p>TRABAJAMOS EN EQUIPO Y<br/>OBTENEMOS LOGROS EXTRAORDINARIOS.</p>
+            <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner" role="listbox">
+                    <!-- Items -->
+                    <div class="item active">
+                        <div>
+                            <p>TRABAJAMOS EN EQUIPO Y<br/>OBTENEMOS LOGROS EXTRAORDINARIOS.</p>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>TRABAJAMOS EN EQUIPO Y<br/>OBTENEMOS LOGROS EXTRAORDINARIOS.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="indicators">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                </ol>
+                <div class="indicators">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+                </div>
             </div>
             <div class="banner-logo">
-                <img src="img/cc-foro/banner/logo.png" alt="">
+                <div class="image-container">
+                    <img src="img/cc-foro/banner/logo.png" alt="">
+                </div>
             </div>
         </div>
     </section>

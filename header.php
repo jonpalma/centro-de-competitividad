@@ -19,18 +19,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand smoothScroll" href="#"><img src="img/navbar/logo.png" alt=""></a>
+                    <a class="navbar-brand smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#index"><img src="img/navbar/logo.png" alt=""></a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav pull-right">
-                        <li class="active"><a class="vertical-align smoothScroll" href="#">Inicio</a></li>
-                        <li><a class="vertical-align smoothScroll" href="#conocenos">Conócenos</a></li>
-                        <li><a class="vertical-align smoothScroll" href="#programas">Programas Institucionales</a></li>
-                        <li><a class="vertical-align smoothScroll" href="#afiliados">Afiliaciones</a></li>
-                        <li><a class="vertical-align smoothScroll" href="#servicios">Servicios</a></li>
-                        <li><a class="vertical-align smoothScroll" href="#blog">Blog</a></li>
-                        <li><a class="vertical-align smoothScroll" href="#">Preguntas Frecuentes</a></li>
-                        <li><a class="vertical-align smoothScroll email-icon" href="#contacto">Contacto</a></li>
+                        <li class="active"><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#index">Inicio</a></li>
+                        <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#conocenos">Conócenos</a></li>
+                        <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#programas">Programas Institucionales</a></li>
+                        <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#afiliados">Afiliaciones</a></li>
+                        <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#servicios">Servicios</a></li>
+                        <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#blog">Blog</a></li>
+                        <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#">Preguntas Frecuentes</a></li>
+                        <li><a class="vertical-align smoothScroll email-icon" href="<?php if($page != 'index') { echo 'index.php'; }?>#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>

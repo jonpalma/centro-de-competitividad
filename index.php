@@ -1,5 +1,6 @@
+<?php $page = 'index'; ?>
 <?php include('header.php'); ?>
-<div class="wrapper index">
+<div class="wrapper index" id="index">
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* BANNER  */-->

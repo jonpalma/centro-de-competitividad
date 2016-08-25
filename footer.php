@@ -26,13 +26,13 @@
                     </div>
                 </div>
                 <div class="social">
-                    <img src="img/cc-foro/icons/fb.png" alt="">
-                    <img src="img/cc-foro/icons/youtube.png" alt="">
+                    <a href=""><img src="img/cc-foro/icons/fb.png" alt=""></a>
+                    <a href=""><img src="img/cc-foro/icons/youtube.png" alt=""></a>
                 </div>
             </div>
             <div class="col-sm-4 right">
                 <div>
-                    <p class="mark">CHIHUAHUA</p>
+                    <p class="mark-img">CHIHUAHUA</p>
                     <p class="address">Prol. Teófilo Borunda #10820<br/>
                         Col. Labor de Terrazas C.P. 31625<br/>
                         Edificio Fechac 2do Piso.<br/>
