@@ -7,18 +7,34 @@
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="banner" id="banner">
-        <div class="container">
-            <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
-                <div class="carousel-inner" role="listbox">
-                    <!-- Items -->
-                    <div class="item active">
-                        <div>
-                            <p>TRABAJAMOS EN EQUIPO Y<br/>OBTENEMOS LOGROS EXTRAORDINARIOS.</p>
-                        </div> 
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="img-container">
+                        <img class="banner-bg" src="img/cc-foro/banner/bg1.jpg" alt="Banner">
                     </div>
-                    <div class="item">
-                        <div>
-                            <p>TRABAJAMOS EN EQUIPO Y<br/>OBTENEMOS LOGROS EXTRAORDINARIOS.</p>
+                    <div class="container">
+                        <p>
+                            TRABAJAMOS EN EQUIPO Y<br/>
+                            OBTENEMOS LOGROS EXTRAORDINARIOS.
+                        </p>
+                        <div class="banner-logo">
+                            <img src="img/cc-foro/banner/logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-container">
+                        <img class="banner-bg" src="img/cc-foro/banner/bg2.jpg" alt="Banner">
+                    </div>
+                    <div class="container">
+                        <p>
+                            TRABAJAMOS EN EQUIPO Y<br/>
+                            OBTENEMOS LOGROS EXTRAORDINARIOS.
+                        </p>
+                        <div class="banner-logo">
+                            <img src="img/cc-foro/banner/logo.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -29,11 +45,6 @@
                         <li data-target="#carousel" data-slide-to="1"></li>
                         <li data-target="#carousel" data-slide-to="2"></li>
                     </ol>
-                </div>
-            </div>
-            <div class="banner-logo">
-                <div class="image-container">
-                    <img src="img/cc-foro/banner/logo.png" alt="">
                 </div>
             </div>
         </div>
@@ -158,7 +169,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Register Modal -->
     <div class="modal fade video" id="video-modal-proyecto1" role="dialog" tabindex="-1">
         <div class="modal-dialog">
@@ -170,7 +181,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade video" id="video-modal-conoce" role="dialog" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -181,6 +192,6 @@
             </div>
         </div>
     </div>
-    
+
 </div>
 <?php include('footer.php'); ?>

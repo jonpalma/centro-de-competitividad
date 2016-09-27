@@ -224,19 +224,19 @@ a {
 }
 
 /* BANNER */
-.banner .carousel .item {
+.index .banner .carousel .item {
     height: calc(100vh - 80px);
     overflow: hidden;
 }
 
-.banner .carousel .img-container {
+.index .banner .carousel .img-container {
     position: absolute;
     min-height: 100%;
     min-width: 100%;
     max-width: 100%;
 }
 
-.banner .carousel .item .banner-bg {
+.index .banner .carousel .item .banner-bg {
     position: relative;
     min-height: 100%;
     min-width: 100%;
@@ -732,89 +732,65 @@ footer .footer-top .right .address a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* FORO */
 /* BANNER */
 .foro .banner {
-    background: url(img/cc-foro/banner/bg1.jpg) no-repeat center center;
     height: calc(100vh - 80px);
-    background-size: cover;
 }
 
-.foro .banner .container {
-    height: 100%;
+.foro .banner .carousel .carousel-inner .item .img-container {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.foro .banner .carousel .carousel-inner .item .banner-bg {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.foro .banner .carousel .carousel-inner .item .container {
+    height: calc(100vh - 80px);
     position: relative;
 }
 
-.foro .banner .container .carousel {
+.foro .banner .carousel .carousel-inner .item .container p {
     position: relative;
-    height: 50%;
-}
-
-.foro .banner .container .carousel .carousel-inner {
-    position: relative;
-    height: 60%;
-}
-
-.foro .banner .container .carousel .carousel-inner .item {
-    top: 60%;
-    margin-left: 50px;
-}
-
-.foro .banner .container .carousel .carousel-inner .item p {
     font-family: 'Avian', sans-serif;
     font-weight: 700;
     font-size: 28px;
     color: #fcf9f9;
+    height: auto;
+    top: 100px;
 }
 
-.foro .banner .container .carousel .indicators {
-    position: relative;
-    height: 40%;
-}
-
-.foro .banner .container .carousel .indicators .carousel-indicators {
+.foro .banner .carousel .carousel-inner .item .container .banner-logo {
     position: absolute;
-    top: 20px;
+    text-align: center;
+    height: auto;
+    right: 0;
     left: 0;
-    z-index: 15;
-    width: auto;
-    margin-left: 50px;
+    margin: 0 auto;
+    bottom: 100px;
 }
 
-.foro .banner .container .carousel .indicators .carousel-indicators li {
+.foro .banner .carousel .carousel-inner .indicators .carousel-indicators {
+    position: absolute;
+    top: 250px;
+    text-align: left;
+}
+
+.foro .banner .carousel .carousel-inner .indicators .carousel-indicators li {
     height: 22px;
     width: 22px;
     margin: 0 3px;
-}
-
-.foro .banner .container .banner-logo {
-    height: 50%;
-}
-
-.foro .banner .container .banner-logo .image-container {
-    position: relative;
-    height: 90%;
-}
-
-.foro .banner .container .banner-logo .image-container img {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    max-height: 90%;
-    min-width: none;
 }
 
 
@@ -1326,16 +1302,20 @@ footer .footer-top .right .address a {
     .foro .banner {
         height: calc(100vh - 50px);
     }
-
-    .foro .banner .container .carousel .carousel-inner .item {
-        top: 60%;
+    
+    .foro .banner .carousel .carousel-inner .item .container {
+        height: calc(100vh - 50px);
     }
 
-    .foro .banner .container .carousel .carousel-inner .item p {
+    .foro .banner .carousel .carousel-inner .item .container p {
         font-size: 22px;
     }
 
-    .foro .banner .container .carousel .indicators .carousel-indicators li {
+    .foro .banner .carousel .carousel-inner .item .container .banner-logo {
+        bottom: 70px;
+    }
+
+    .foro .banner .carousel .carousel-inner .indicators .carousel-indicators li {
         height: 20px;
         width: 20px;
         margin: 0 3px;
