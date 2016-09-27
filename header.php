@@ -25,12 +25,19 @@
                     <ul class="nav navbar-nav pull-right">
                         <li class="active"><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#index">Inicio</a></li>
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#conocenos">Conócenos</a></li>
-                        <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#programas">Programas Institucionales</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle vertical-align" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programas Institucionales <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                               <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#programas" class="smoothScroll">Programas Institucionales</a></li>
+                                <li><a href="<?php if($page != 'foro') { echo 'cc-foro.php'; }?>#">Foro</a></li>
+                            </ul>
+                        </li>
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#afiliados">Afiliaciones</a></li>
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#servicios">Servicios</a></li>
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#blog">Blog</a></li>
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#">Preguntas Frecuentes</a></li>
                         <li><a class="vertical-align smoothScroll email-icon" href="<?php if($page != 'index') { echo 'index.php'; }?>#contacto">Contacto</a></li>
+
                     </ul>
                 </div>
             </div>

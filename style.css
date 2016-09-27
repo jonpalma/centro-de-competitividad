@@ -139,7 +139,7 @@ a {
 
 .navbar-brand img {
     margin-top: 2px;
-    width: 200px;
+    width: 150px;
     padding: 8px;
 }
 
@@ -170,9 +170,24 @@ a {
     vertical-align: middle;
 }
 
+.navbar-nav .dropdown-menu > li {
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    color: #103271!important;
+    -webkit-transition: color 300ms ease, border 300ms ease;
+    -moz-transition: color 300ms ease, border 300ms ease;
+    transition: color 300ms ease, border 300ms ease;
+}
+
+.navbar-nav .dropdown-menu > li.active > a,
+.navbar-nav .dropdown-menu > li:hover > a {
+    background-color: transparent!important;
+    color: #c1181a!important;
+}
+
 .navbar-nav > li > a {
     padding: 5px 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     display: block;
@@ -209,13 +224,31 @@ a {
 }
 
 /* BANNER */
-.index .banner {
-    background: url(img/banner/1.jpg) no-repeat center center;
-    background-size: cover;
+.banner .carousel .item {
+    height: calc(100vh - 80px);
+    overflow: hidden;
+}
+
+.banner .carousel .img-container {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.banner .carousel .item .banner-bg {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .index .banner .container {
-    height: 100vh;
+    height: calc(100vh - 80px);
 }
 
 .index .banner .logo {
@@ -713,8 +746,9 @@ footer .footer-top .right .address a {
 /* FORO */
 /* BANNER */
 .foro .banner {
-    background: url(img/cc-foro/banner/bg1.jpg);
+    background: url(img/cc-foro/banner/bg1.jpg) no-repeat center center;
     height: calc(100vh - 80px);
+    background-size: cover;
 }
 
 .foro .banner .container {
@@ -889,13 +923,13 @@ footer .footer-top .right .address a {
 
 
 /* PROYECTOS */
-.foro .proyectos .container p {
+.foro .proyectos .container .title {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     color: #cb0a1d;
 }
 
-.foro .proyectos .container p::after {
+.foro .proyectos .container .title::after {
     content: '';
     display: block;
     height: 2px;
@@ -906,7 +940,7 @@ footer .footer-top .right .address a {
 
 .foro .proyectos .container .col-sm-6 {
     margin: 30px 0;
-    height: 260px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -926,6 +960,17 @@ footer .footer-top .right .address a {
     width: 500px;
     max-width: 100%;
     overflow: hidden;
+}
+
+.foro .proyectos .container .row .desc {
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.foro .proyectos .container .row .desc p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #f9f9f9f9;
 }
 
 .foro .proyectos .container .left-side {
@@ -1037,7 +1082,7 @@ footer .footer-top .right .address a {
 @media(max-width: 1200px) {
     .navbar-brand img {
         margin-top: 7px;
-        width: 150px;
+        width: 120px;
         padding: 8px;
     }
     .navbar-nav > li > a {
@@ -1058,7 +1103,7 @@ footer .footer-top .right .address a {
     }
     .navbar-nav > li > a {
         padding: 2px 1px;
-        font-size: 11px;
+        font-size: 10px;
     }
     .navbar-nav>li {
         padding-left: 1px;
@@ -1408,7 +1453,7 @@ footer .footer-top .right .address a {
             font-size: 10px;
             line-height: 40px;
         }
-        
+
 
         /* PROYECTOS */
         .foro .proyectos .container p {
