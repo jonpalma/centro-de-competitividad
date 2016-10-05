@@ -745,12 +745,12 @@ footer .footer-top .right .address a {
     max-width: 100%;
 }
 
-.foro .banner .carousel .carousel-inner .item .banner-bg {
+.foro .banner .carousel .carousel-inner .item .img-container img {
     position: absolute;
-    bottom: 0;
     min-height: 100%;
     min-width: 100%;
     max-width: none;
+    bottom: 0;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -759,52 +759,40 @@ footer .footer-top .right .address a {
 
 .foro .banner .carousel .carousel-inner .item .container {
     height: calc(100vh - 80px);
-    position: relative;
 }
 
-.foro .banner .carousel .carousel-inner .item .container .title {
-    position: relative;
-    height: 50%;
+.foro .banner .carousel .title {
+    height: 40%;
+    overflow: hidden;
 }
 
-.foro .banner .carousel .carousel-inner .item .container .title p {
+.foro .banner .carousel .title p {
     position: relative;
     font-family: 'Avian', sans-serif;
     font-weight: 700;
     font-size: 28px;
     color: #fcf9f9;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.foro .banner .carousel .carousel-inner .item .container .logo-img-container {
-    position: relative;
     text-align: center;
-    height: 50%;
-}
-
-.foro .banner .carousel .carousel-inner .item .container .logo-img-container img {
-    position: relative;
-    top: 50%;
+    margin: 0px 25px;
+    top: 80%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.foro .banner .carousel .logo-img-container {
+    text-align: center;
+    height: 60%;
+    overflow: hidden;
+}
+
+.foro .banner .carousel .logo-img-container img {
+    position: relative;
+    top: 0;
     height: 100%;
-    padding: 50px 0;
-}
+    max-width: 100%;
+    padding-bottom: 50px;
 
-.foro .banner .carousel .carousel-inner .indicators .carousel-indicators {
-    position: absolute;
-    bottom: calc(50vh - 40px);
-    text-align: left;
-}
-
-.foro .banner .carousel .carousel-inner .indicators .carousel-indicators li {
-    height: 22px;
-    width: 22px;
-    margin: 0 3px;
 }
 
 
@@ -1320,23 +1308,18 @@ footer .footer-top .right .address a {
     .foro .banner .carousel .carousel-inner .item .container {
         height: calc(100vh - 50px);
     }
-
-    .foro .banner .carousel .carousel-inner .item .container .title p {
-        font-size: 22px;
+    
+    .foro .banner .carousel .title {
+        height: 45%;
     }
 
-    .foro .banner .carousel .carousel-inner .item .container .logo-img-container img {
-        padding: 20px 0;
+    .foro .banner .carousel .title p {
+        font-size: 24px;
+        top: 80%;
     }
 
-    .foro .banner .carousel .carousel-inner .indicators .carousel-indicators {
-        bottom: calc(50vh - 25px);
-    }
-
-    .foro .banner .carousel .carousel-inner .indicators .carousel-indicators li {
-        height: 20px;
-        width: 20px;
-        margin: 0 3px;
+    .foro .banner .carousel .logo-img-container {
+        height: 55%;
     }
 
     /* CONOCE */
