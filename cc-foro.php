@@ -12,28 +12,16 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <div class="img-container">
-                        <img class="banner-bg" src="img/cc-foro/banner/bg1.jpg" alt="Banner">
-                    </div>
-                    <div class="container">
-                        <p>
-                            TRABAJAMOS EN EQUIPO Y<br/>
-                            OBTENEMOS LOGROS EXTRAORDINARIOS.
-                        </p>
-                        <div class="banner-logo">
-                            <img src="img/cc-foro/banner/logo.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="img-container">
                         <img class="banner-bg" src="img/cc-foro/banner/bg2.jpg" alt="Banner">
                     </div>
                     <div class="container">
-                        <p>
-                            TRABAJAMOS EN EQUIPO Y<br/>
-                            OBTENEMOS LOGROS EXTRAORDINARIOS.
-                        </p>
-                        <div class="banner-logo">
+                        <div class="title">
+                            <p>
+                                TRABAJAMOS EN EQUIPO Y<br/>
+                                OBTENEMOS LOGROS EXTRAORDINARIOS.
+                            </p>
+                        </div>
+                        <div class="logo-img-container">
                             <img src="img/cc-foro/banner/logo.png" alt="">
                         </div>
                     </div>
@@ -42,8 +30,7 @@
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <!--<li data-target="#carousel" data-slide-to="1"></li>-->
                     </ol>
                 </div>
             </div>

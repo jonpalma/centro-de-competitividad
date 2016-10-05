@@ -18,7 +18,6 @@
                         <div class="vertical-align text-center white">
                             <img class="logo" src="img/banner/cchcp.png" alt="CChCP">
                             <h1>IMPULSAMOS LA CULTURA DE INNOVACIÓN, CALIDAD Y COMPETITIVIDAD</h1>
-                            <h3>Para mejorar la calidad de vida de los Chihuahuenses.</h3>
                         </div>
                     </div>
                 </div>
@@ -57,9 +56,10 @@
                 CONÓCENOS
             </h1>
             <p class="text">
-                El Centro de Competitividad Chihuahua fue fundado a principios de los 90´s como Centro Chihuahuense para la Calidad y Productividad , una asociación líder dedicada al desarrollo de la cultura de innovación, calidad y competitividad en el estado de Chihuahua.
-                <br>
-                .
+                El Centro de Competitividad Chihuahua fue fundado a principios de los 90´s
+                como Centro Chihuahuense para la Calidad y Productividad , una institución dedicada
+                a fortalecer la competitividad en el estado a través del desarrollo empresarial y
+                la calidad educativa.
             </p>
             <div class="divider"></div>
         </div>
@@ -97,7 +97,10 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="afiliados light-spacing" id="afiliados">
         <div class="container text-center">
-            <h1 class="heading red">NUESTROS AFILIADOS</h1>
+            <div>
+                <h1 class="heading red">NUESTROS AFILIADOS</h1>
+            </div>
+            <h1 class="red bottom-note">Conocer más</h1>
             <div class="row no-margin">
                 <div class="col-sm-2"><img src="img/afiliados/1.png" alt="CFE" class="img-responsive center-block"></div>
                 <div class="col-sm-2"><img src="img/afiliados/2.png" alt="Citlali" class="img-responsive center-block"></div>
@@ -122,7 +125,6 @@
                 <div class="col-sm-2"><img src="img/afiliados/17.png" alt="LIACSA" class="img-responsive center-block"></div>
                 <div class="col-sm-2"><img src="img/afiliados/18.jpg" alt="COFIASA" class="img-responsive center-block"></div>
             </div>
-            <h1 class="red bottom-note">Conoce los beneficios de ser un afiliado</h1>
         </div>
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->

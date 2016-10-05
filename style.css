@@ -746,7 +746,8 @@ footer .footer-top .right .address a {
 }
 
 .foro .banner .carousel .carousel-inner .item .banner-bg {
-    position: relative;
+    position: absolute;
+    bottom: 0;
     min-height: 100%;
     min-width: 100%;
     max-width: none;
@@ -761,29 +762,42 @@ footer .footer-top .right .address a {
     position: relative;
 }
 
-.foro .banner .carousel .carousel-inner .item .container p {
+.foro .banner .carousel .carousel-inner .item .container .title {
+    position: relative;
+    height: 50%;
+}
+
+.foro .banner .carousel .carousel-inner .item .container .title p {
     position: relative;
     font-family: 'Avian', sans-serif;
     font-weight: 700;
     font-size: 28px;
     color: #fcf9f9;
-    height: auto;
-    top: 100px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.foro .banner .carousel .carousel-inner .item .container .banner-logo {
-    position: absolute;
+.foro .banner .carousel .carousel-inner .item .container .logo-img-container {
+    position: relative;
     text-align: center;
-    height: auto;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    bottom: 100px;
+    height: 50%;
+}
+
+.foro .banner .carousel .carousel-inner .item .container .logo-img-container img {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 100%;
+    padding: 50px 0;
 }
 
 .foro .banner .carousel .carousel-inner .indicators .carousel-indicators {
     position: absolute;
-    top: 250px;
+    bottom: calc(50vh - 40px);
     text-align: left;
 }
 
@@ -1302,17 +1316,21 @@ footer .footer-top .right .address a {
     .foro .banner {
         height: calc(100vh - 50px);
     }
-    
+
     .foro .banner .carousel .carousel-inner .item .container {
         height: calc(100vh - 50px);
     }
 
-    .foro .banner .carousel .carousel-inner .item .container p {
+    .foro .banner .carousel .carousel-inner .item .container .title p {
         font-size: 22px;
     }
 
-    .foro .banner .carousel .carousel-inner .item .container .banner-logo {
-        bottom: 70px;
+    .foro .banner .carousel .carousel-inner .item .container .logo-img-container img {
+        padding: 20px 0;
+    }
+
+    .foro .banner .carousel .carousel-inner .indicators .carousel-indicators {
+        bottom: calc(50vh - 25px);
     }
 
     .foro .banner .carousel .carousel-inner .indicators .carousel-indicators li {
