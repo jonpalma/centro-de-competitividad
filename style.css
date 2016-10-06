@@ -258,7 +258,7 @@ a {
 
 .index .banner h1 {
     font-family: 'AvianBold', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 0;
 }
 
@@ -285,7 +285,21 @@ a {
     padding: 15px 10px;
 }
 
-.index .afiliados .bottom-note {
+.index .afiliados .item {
+    width: 100%;
+}
+
+.index .afiliados .carousel-control.left,
+.index .afiliados .carousel-control.right {
+    background-image: none;
+}
+
+.index .afiliados .carousel-control {
+    width: 50px;
+    color: #24356a;
+}
+
+.index .afiliados .top-note {
     font-family: 'Quicksand', sans-serif;
     font-size: 17px;
     font-weight: 700;
@@ -293,10 +307,10 @@ a {
     display: inline-block;
     padding-bottom: 5px;
     border-bottom: 1px solid #bb1113;
+    margin: 40px 0px;
 }
 
 /* SERVICIOS */
-
 .index .servicios .img-container {
     max-width: 272px;
     margin: 0 auto;
@@ -1222,13 +1236,13 @@ footer .footer-top .right .address a {
 
     /* INDEX */
     /* BANNER */
-    .index .banner h3 {
-        font-family: 'Avian', sans-serif;
-        font-size: 20px;
+    .index .banner h1 {
+        font-size: 28px;
+        margin-top: 0;
     }
 
-    .index .banner h1 {
-        font-size: 10px;
+    .index .banner h3 {
+        font-size: 20px;
     }
 
     /* CONOCENOS */
@@ -1308,7 +1322,7 @@ footer .footer-top .right .address a {
     .foro .banner .carousel .carousel-inner .item .container {
         height: calc(100vh - 50px);
     }
-    
+
     .foro .banner .carousel .title {
         height: 45%;
     }

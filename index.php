@@ -23,13 +23,13 @@
                 </div>
                 <div class="item">
                     <div class="img-container">
-                        <img class="banner-bg" src="img/banner/1.jpg" alt="Banner">
+                        <img class="banner-bg" src="img/banner/2.jpg" alt="Banner">
                     </div>
                     <div class="container">
                         <div class="vertical-align text-center white">
-                            <img class="logo" src="img/banner/cchcp.png" alt="CChCP">
-                            <h1>IMPULSAMOS LA CULTURA DE INNOVACIÓN, CALIDAD Y COMPETITIVIDAD</h1>
-                            <h3>Para mejorar la calidad de vida de los Chihuahuenses.</h3>
+                            <img class="logo" src="img/banner/logo1.png" alt="CChCP">
+                            <h1>EMPRESAS EN CAMINO A LA EXCELENCIA</h1>
+                            <h3>10 de Noviembre</h3>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,75 @@
             <div>
                 <h1 class="heading red">NUESTROS AFILIADOS</h1>
             </div>
-            <h1 class="red bottom-note">Conocer más</h1>
+            <h1 class="red top-note">Conocer más</h1>
+            <div id="carousel-afiliados" class="carousel slide" data-ride="carousel" data-interval="false">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="row no-margin">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/1.png" alt="Citlali" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/2.png" alt="GCC" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/3.png" alt="Índigo" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/4.png" alt="DEMIC" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row no-margin">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/5.png" alt="Bodegas Pinesque" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/6.png" alt="I. Soto D." class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/7.png" alt="TSAC" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/8.png" alt="GPA" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row no-margin">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/9.png" alt="PROESMMA" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/10.png" alt="ruba" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/11.png" alt="Deloitte" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/12.png" alt="LIACSA" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row no-margin">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/13.png" alt="PROESMMA" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/14.png" alt="ruba" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/15.png" alt="Deloitte" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/16.png" alt="LIACSA" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row no-margin">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/17.png" alt="ruba" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"><img src="img/afiliados/18.png" alt="Deloitte" class="img-responsive center-block"></div>
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-afiliados" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-afiliados" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+
+           <!--
             <div class="row no-margin">
                 <div class="col-sm-2"><img src="img/afiliados/1.png" alt="CFE" class="img-responsive center-block"></div>
                 <div class="col-sm-2"><img src="img/afiliados/2.png" alt="Citlali" class="img-responsive center-block"></div>
@@ -125,6 +193,7 @@
                 <div class="col-sm-2"><img src="img/afiliados/17.png" alt="LIACSA" class="img-responsive center-block"></div>
                 <div class="col-sm-2"><img src="img/afiliados/18.jpg" alt="COFIASA" class="img-responsive center-block"></div>
             </div>
+            -->
         </div>
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
