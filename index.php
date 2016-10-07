@@ -17,7 +17,9 @@
                     <div class="container">
                         <div class="vertical-align text-center white">
                             <img class="logo" src="img/banner/cchcp.png" alt="CChCP">
-                            <h1>IMPULSAMOS LA CULTURA DE INNOVACIÓN, CALIDAD Y COMPETITIVIDAD</h1>
+                            <h1>
+                                IMPULSAMOS LA CULTURA DE INNOVACIÓN, CALIDAD Y COMPETITIVIDAD
+                            </h1>
                         </div>
                     </div>
                 </div>
@@ -28,8 +30,12 @@
                     <div class="container">
                         <div class="vertical-align text-center white">
                             <img class="logo" src="img/banner/logo1.png" alt="CChCP">
-                            <h1>EMPRESAS EN CAMINO A LA EXCELENCIA</h1>
-                            <h3>10 de Noviembre</h3>
+                            <h1>
+                                EMPRESAS EN CAMINO A LA EXCELENCIA
+                            </h1>
+                            <h3>
+                                10 de Noviembre
+                            </h3>
                         </div>
                     </div>
                 </div>
@@ -75,7 +81,9 @@
                 <img src="img/parallax/1.jpg" alt="Parallax">
             </div>
             <div class="container text-center light-spacing">
-                <h1 class="heading white">PROGRAMAS INSTITUCIONALES</h1>
+                <h1 class="heading white">
+                    PROGRAMAS INSTITUCIONALES
+                </h1>
                 <div class="row no-margin">
                     <div class="col-sm-4">
                         <img class="img-responsive center-block" src="img/programas/1.png" alt="Foro Estatal de Trabajo en Equipo">
@@ -95,12 +103,18 @@
     <!--/* NUESTROS AFILIADOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="afiliados light-spacing" id="afiliados">
+    <section class="afilia light-spacing" id="afiliados">
         <div class="container text-center">
             <div>
-                <h1 class="heading red">NUESTROS AFILIADOS</h1>
+                <h1 class="heading red">
+                    NUESTROS AFILIADOS
+                </h1>
             </div>
-            <h1 class="red top-note">Conocer más</h1>
+            <a href="cc-afiliados.php">
+                <h1 class="red top-note">
+                    Conocer más
+                </h1>
+            </a>
             <div id="carousel-afiliados" class="carousel slide" data-ride="carousel" data-interval="false">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
@@ -165,35 +179,6 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-
-
-
-           <!--
-            <div class="row no-margin">
-                <div class="col-sm-2"><img src="img/afiliados/1.png" alt="CFE" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/2.png" alt="Citlali" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/3.png" alt="GCC" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/4.png" alt="Índigo" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/5.png" alt="DEMIC" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/6.png" alt="Interceramic" class="img-responsive center-block"></div>
-            </div>
-            <div class="row no-margin">
-                <div class="col-sm-2"><img src="img/afiliados/7.png" alt="Milán Milán & Sotelo" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/8.png" alt="Bodegas Pinesque" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/9.png" alt="I. Soto D." class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/10.png" alt="TSAC" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/11.png" alt="GPA" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/12.png" alt="meca" class="img-responsive center-block"></div>
-            </div>
-            <div class="row no-margin">
-                <div class="col-sm-2"><img src="img/afiliados/13.png" alt="PIMSA" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/14.png" alt="PROESMMA" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/15.png" alt="ruba" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/16.png" alt="Deloitte" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/17.png" alt="LIACSA" class="img-responsive center-block"></div>
-                <div class="col-sm-2"><img src="img/afiliados/18.jpg" alt="COFIASA" class="img-responsive center-block"></div>
-            </div>
-            -->
         </div>
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
