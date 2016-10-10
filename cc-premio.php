@@ -205,10 +205,10 @@
                         <div id="collapse-1" class="panel-collapse collapse in" 
                              role="tabpanel" aria-labelledby="heading-1">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                Aenean commodo ligula eget dolor. Aenean massa.
-                                Cum sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus.
+                                Los líderes de las organizaciones competitivas se caracterizan
+                                por su integridad y su capacidad para entender los retos del entorno,
+                                identificar oportunidades, establecer estrategias y propuestas
+                                de valor para generar ventajas competitivas difíciles de imitar.
                             </p>
                         </div>
                     </div>
@@ -227,10 +227,11 @@
                         <div id="collapse-2" class="panel-collapse collapse" 
                              role="tabpanel" aria-labelledby="heading-2">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                Aenean commodo ligula eget dolor. Aenean massa.
-                                Cum sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus.
+                                El capital humano de las organizaciones competitivas es valorado
+                                y su desarrollo se basa en el aprendizaje continuo, el respeto y
+                                el facultamiento, lo que facilita el alto desempeño, el logro
+                                tanto de los objetivos de la organización como de los objetivos
+                                personales, asegurando con ello la sustentabilidad organizacional.
                             </p>
                         </div>
                     </div>
@@ -249,10 +250,9 @@
                         <div id="collapse-3" class="panel-collapse collapse" 
                              role="tabpanel" aria-labelledby="heading-3">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                Aenean commodo ligula eget dolor. Aenean massa.
-                                Cum sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus.
+                                El rumbo estratégico de las organizaciones competitivas se logra
+                                mediante una ejecución sustentada en el alto desempeño y el logro
+                                de resultados balanceados.
                             </p>
                         </div>
                     </div>
@@ -271,10 +271,10 @@
                         <div id="collapse-4" class="panel-collapse collapse" 
                              role="tabpanel" aria-labelledby="heading-4">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                Aenean commodo ligula eget dolor. Aenean massa.
-                                Cum sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus.
+                                Las organizaciones competitivas favorecen una cultura de innovación
+                                que se refleja en sus modelos de negocio y administración, lo que
+                                les permite diferenciarse en los mercados y alcanzar la
+                                sustentabilidad económica, social y ecológica.
                             </p>
                         </div>
                     </div>
@@ -293,10 +293,9 @@
                         <div id="collapse-5" class="panel-collapse collapse" 
                              role="tabpanel" aria-labelledby="heading-5">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                Aenean commodo ligula eget dolor. Aenean massa.
-                                Cum sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus.
+                                Las organizaciones competitivas se caracterizan por la forma en
+                                que conocen y anticipan las necesidades de sus clientes,
+                                se alinean a ellas y generan valor a través de su propuesta de valor.
                             </p>
                         </div>
                     </div>
@@ -315,10 +314,11 @@
                         <div id="collapse-6" class="panel-collapse collapse" 
                              role="tabpanel" aria-labelledby="heading-6">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                Aenean commodo ligula eget dolor. Aenean massa.
-                                Cum sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus.
+                                Las organizaciones competitivas desarrollan y mantienen alianzas
+                                estratégicas con clientes, proveedores, sociedad, instituciones
+                                educativas y de gobierno, que contribuyen a la generación de
+                                valor a través del desarrollo de sus capacidades clave, su
+                                crecimiento y sustentabilidad.
                             </p>
                         </div>
                     </div>
@@ -337,10 +337,10 @@
                         <div id="collapse-7" class="panel-collapse collapse" 
                              role="tabpanel" aria-labelledby="heading-7">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                Aenean commodo ligula eget dolor. Aenean massa.
-                                Cum sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus.
+                                La administración de las organizaciones competitivas se sustenta
+                                en procesos de calidad, estructurados y confiables que facilitan
+                                la toma de decisiones basada en hechos para impulsar la mejora
+                                continua y la innovación.
                             </p>
                         </div>
                     </div>
@@ -359,10 +359,10 @@
                         <div id="collapse-8" class="panel-collapse collapse" 
                              role="tabpanel" aria-labelledby="heading-8">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                Aenean commodo ligula eget dolor. Aenean massa.
-                                Cum sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus.
+                                El desarrollo sostenido de las organizaciones competitivas
+                                se sustenta en un comportamiento ético y de legalidad que
+                                refleja un compromiso sólido y proactivo con la sustentabilidad
+                                económica, social y ecológica. 
                             </p>
                         </div>
                     </div>
