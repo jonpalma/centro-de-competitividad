@@ -60,7 +60,7 @@
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="beneficios">
-        <div class="img-container vertical-align">
+        <div class="img-container vertical-align hidden-xs">
             <img src="img/cc-premio/beneficios/bg.jpg" alt="">
         </div>
         <div class="container light-spacing">
@@ -120,54 +120,54 @@
                 <div class="col-sm-6">
                     <a href="#video-modal-proyecto1" data-toggle="modal" data-target="#video-modal-proyecto1">
                         <div class="img-container left-side">
-                            <img src="img/cc-foro/proyectos/video1.png" alt="">
+                            <img src="img/cc-premio/videos/1.jpg" alt="">
                         </div>
                     </a>
                     <div class="desc">
                         <p>
-                            Estamu ajl quenime quens
-                            qunmei jhsd jahjaja el.
+                            Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit.
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 pre-middle">
                     <a href="#video-modal-main" data-toggle="modal" data-target="#video-modal-main">
                         <div class="img-container right-side">
-                            <img src="img/cc-foro/proyectos/video2.png" alt="">
+                            <img src="img/cc-premio/videos/2.jpg" alt="">
                         </div>
                     </a>
                     <div class="desc">
                         <p>
-                            Estamu ajl quenime quens
-                            qunmei jhsd jahjaja el.
+                            Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 post-middle">
                     <a href="#video-modal-main" data-toggle="modal" data-target="#video-modal-main">
                         <div class="img-container left-side">
-                            <img src="img/cc-foro/proyectos/video3.png" alt="">
+                            <img src="img/cc-premio/videos/3.jpg" alt="">
                         </div>
                     </a>
                     <div class="desc">
                         <p>
-                            Estamu ajl quenime quens
-                            qunmei jhsd jahjaja el.
+                            Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit.
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <a href="#video-modal-main" data-toggle="modal" data-target="#video-modal-main">
                         <div class="img-container right-side">
-                            <img src="img/cc-foro/proyectos/video4.png" alt="">
+                            <img src="img/cc-premio/videos/4.jpg" alt="">
                         </div>
                     </a>
                     <div class="desc">
                         <p>
-                            Estamu ajl quenime quens
-                            qunmei jhsd jahjaja el.
+                            Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit.
                         </p>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
         <div class="img-container">
             <img src="img/cc-premio/modelo/bg.jpg" alt="">
         </div>
-        <div class="container light-spacing">
+        <div class="container light-spacing panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <h1>
                 MODELO NACIONAL DE COMPETITIVIDAD
             </h1>
@@ -192,110 +192,182 @@
                 entendimiento de su organización en cada uno de los
                 siguientes principios.
             </p>
-            <div class="col-sm-6">
-                <div class="col-sm-3">
-                    <img src="img/cc-premio/icons/1.png" alt="">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1"
+               aria-expanded="true" aria-controls="collapse-1">
+                <div class="col-sm-6 panel panel-default">
+                    <div class="col-sm-3">
+                        <img src="img/cc-premio/icons/1.png" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>
+                            LIDERAZGO ESTRATÉGICO
+                        </h3>
+                        <div id="collapse-1" class="panel-collapse collapse in" 
+                             role="tabpanel" aria-labelledby="heading-1">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-9">
-                    <h3>
-                        LIDERAZGO ESTRATÉGICO
-                    </h3>
-                    <p>
-                        <!-- BOOTSTRAP ACCORDION -->
-                    </p>
+            </a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2"
+               aria-expanded="true" aria-controls="collapse-2">
+                <div class="col-sm-6 panel panel-default">
+                    <div class="col-sm-3">
+                        <img src="img/cc-premio/icons/2.png" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>
+                            RESPONSABILIDAD POR LA GENTE
+                        </h3>
+                        <div id="collapse-2" class="panel-collapse collapse" 
+                             role="tabpanel" aria-labelledby="heading-2">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="col-sm-3">
-                    <img src="img/cc-premio/icons/2.png" alt="">
+            </a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3"
+               aria-expanded="true" aria-controls="collapse-3">
+                <div class="col-sm-6 panel panel-default">
+                    <div class="col-sm-3">
+                        <img src="img/cc-premio/icons/3.png" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>
+                            LOGRO DE RESULTADOS
+                        </h3>
+                        <div id="collapse-3" class="panel-collapse collapse" 
+                             role="tabpanel" aria-labelledby="heading-3">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-9">
-                    <h3>
-                        RESPONSABILIDAD POR LA GENTE
-                    </h3>
-                    <p>
-
-                    </p>
+            </a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4"
+               aria-expanded="true" aria-controls="collapse-4">
+                <div class="col-sm-6 panel panel-default">
+                    <div class="col-sm-3">
+                        <img src="img/cc-premio/icons/4.png" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>
+                            IMPULSO A LA INNOVACIÓN
+                        </h3>
+                        <div id="collapse-4" class="panel-collapse collapse" 
+                             role="tabpanel" aria-labelledby="heading-4">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="col-sm-3">
-                    <img src="img/cc-premio/icons/3.png" alt="">
+            </a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5"
+               aria-expanded="true" aria-controls="collapse-5">
+                <div class="col-sm-6 panel panel-default">
+                    <div class="col-sm-3">
+                        <img src="img/cc-premio/icons/5.png" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>
+                            ENFOQUE AL CLIENTE
+                        </h3>
+                        <div id="collapse-5" class="panel-collapse collapse" 
+                             role="tabpanel" aria-labelledby="heading-5">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-9">
-                    <h3>
-                        LOGRO DE RESULTADOS
-                    </h3>
-                    <p>
-
-                    </p>
+            </a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6"
+               aria-expanded="true" aria-controls="collapse-6">
+                <div class="col-sm-6 panel panel-default">
+                    <div class="col-sm-3">
+                        <img src="img/cc-premio/icons/6.png" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>
+                            CONSTRUCCIÓN DE ALIANZAS
+                        </h3>
+                        <div id="collapse-6" class="panel-collapse collapse" 
+                             role="tabpanel" aria-labelledby="heading-6">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="col-sm-3">
-                    <img src="img/cc-premio/icons/4.png" alt="">
+            </a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7"
+               aria-expanded="true" aria-controls="collapse-7">
+                <div class="col-sm-6 panel panel-default">
+                    <div class="col-sm-3">
+                        <img src="img/cc-premio/icons/7.png" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>
+                            CALIDAD DE LA OPERACIÓN
+                        </h3>
+                        <div id="collapse-7" class="panel-collapse collapse" 
+                             role="tabpanel" aria-labelledby="heading-7">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-9">
-                    <h3>
-                        IMPULSO A LA INNOVACIÓN
-                    </h3>
-                    <p>
-
-                    </p>
+            </a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-8"
+               aria-expanded="true" aria-controls="collapse-8">
+                <div class="col-sm-6 panel panel-default">
+                    <div class="col-sm-3">
+                        <img src="img/cc-premio/icons/8.png" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>
+                            CORRESPONSABILIDAD SOCIAL
+                        </h3>
+                        <div id="collapse-8" class="panel-collapse collapse" 
+                             role="tabpanel" aria-labelledby="heading-8">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="col-sm-3">
-                    <img src="img/cc-premio/icons/5.png" alt="">
-                </div>
-                <div class="col-sm-9">
-                    <h3>
-                        ENFOQUE AL CLIENTE
-                    </h3>
-                    <p>
-
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="col-sm-3">
-                    <img src="img/cc-premio/icons/6.png" alt="">
-                </div>
-                <div class="col-sm-9">
-                    <h3>
-                        CONSTRUCCIÓN DE ALIANZAS
-                    </h3>
-                    <p>
-
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="col-sm-3">
-                    <img src="img/cc-premio/icons/7.png" alt="">
-                </div>
-                <div class="col-sm-9">
-                    <h3>
-                        CALIDAD DE LA OPERACIÓN
-                    </h3>
-                    <p>
-
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="col-sm-3">
-                    <img src="img/cc-premio/icons/8.png" alt="">
-                </div>
-                <div class="col-sm-9">
-                    <h3>
-                        CORRESPONSABILIDAD SOCIAL
-                    </h3>
-                    <p>
-
-                    </p>
-                </div>
-            </div>
+            </a>
         </div>
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -305,7 +377,7 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="detalles">
         <div class="container spacing">
-            <div class="col-sm-4">
+            <div class="col-sm-4 special-decoration">
                 <div class="img-container top-logo">
                     <img src="img/cc-premio/icons/list.png" alt="">
                 </div>

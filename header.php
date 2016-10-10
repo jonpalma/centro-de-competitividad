@@ -29,8 +29,8 @@
                             <a href="#" class="dropdown-toggle vertical-align" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programas Institucionales <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#programas" class="smoothScroll">Programas Institucionales</a></li>
-                                <li><a href="<?php if($page != 'foro') { echo 'cc-foro.php'; }?>#">Foro</a></li>
-                                <li><a href="<?php if($page != 'foro') { echo 'cc-premio.php'; }?>#">Premio</a></li>
+                                <li><a href="<?php echo 'cc-foro.php'; ?>#">Foro</a></li>
+                                <li><a href="<?php echo 'cc-premio.php'; ?>#">Premio</a></li>
                             </ul>
                         </li>
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index.php'; }?>#afiliados">Afiliaciones</a></li>
