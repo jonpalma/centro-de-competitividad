@@ -1117,6 +1117,7 @@ footer .footer-top .right .address a {
 /* BENEFICIOS */
 .afiliados .beneficios {
     background-color: rgba(21, 53, 126, 1);
+    height: 650px;
 }
 
 .afiliados .beneficios h1 {
@@ -1131,12 +1132,14 @@ footer .footer-top .right .address a {
 .afiliados .beneficios .row {
     text-align: center;
     padding: 30px 50px;
+    height: 500px;;
 }
 
 .afiliados .beneficios .row img {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     margin: 0 auto;
+    border: none;
 }
 
 .afiliados .beneficios .row p {
@@ -1573,6 +1576,11 @@ footer .footer-top .right .address a {
     text-align: center;
 }
 
+.premio .detalles .container a {
+    text-decoration: none!important;
+    outline: none!important;
+}
+
 .premio .detalles .top-logo {
     display: inline-block;
     position: relative;
@@ -1740,6 +1748,341 @@ footer .footer-top .right .address a {
 
 
 
+/* EVALUACION */
+/* PROCESO */
+.evaluacion .proceso {
+    min-height: calc(100vh - 80px);
+    overflow: hidden;
+}
+
+.evaluacion .proceso .container h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: rgba(181, 12, 25, 1);
+}
+
+.evaluacion .proceso .container .logos .row {
+    margin-top: 125px;
+    border: none;
+}
+
+.evaluacion .proceso .container .col-7 {
+    float: left;
+    width: calc(100% / 7);
+    margin-bottom: 50px;
+    min-height: 1px;
+}
+
+.evaluacion .proceso .container .logos .row .col-7 a {
+    text-align: center;
+    text-decoration: none!important;
+    outline: none!important;
+}
+
+.evaluacion .proceso .container .logos .row .col-7 .img-container {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.evaluacion .proceso .container .logos .row .col-7 .img-container::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: -8px;
+    left: -8px;
+    width: calc(100% + 16px);
+    height: calc(100% + 16px);
+    border-radius: 50px;
+    border: 5px solid rgba(36, 53, 106, 1);
+}
+
+.evaluacion .proceso .container .logos .row .col-7 .img-container img {
+    height: 100%;
+    width: 100%;
+    padding: 8px 8px;
+    border-radius: 50px;
+    background-color: rgba(36, 53, 106, 1);
+}
+
+.evaluacion .proceso .container .logos .row .col-7 h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(181, 12, 25, 1);
+    height: auto;
+    width: 100%;;
+}
+
+.evaluacion .proceso .container .logos .row .col-7 .img-container,
+.evaluacion .proceso .container .logos .row .col-7 .img-container img,
+.evaluacion .proceso .container .logos .row .col-7 h3 {
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+}
+
+.evaluacion .proceso .container .logos .row .col-7:hover .img-container img,
+.evaluacion .proceso .container .logos .row .col-7.active .img-container img {
+    background-color: rgba(156, 16, 6, 1);
+}
+
+.evaluacion .proceso .container .logos .row .col-7:hover .img-container::before,
+.evaluacion .proceso .container .logos .row .col-7.active .img-container::before {
+    border-color: rgba(156, 16, 6, 1);
+}
+
+.evaluacion .proceso .container .text h3,
+.evaluacion .proceso .container .col-7 h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(156, 16, 6, 1);
+    height: auto;
+    width: 100%;;
+}
+
+.evaluacion .proceso .container .text p,
+.evaluacion .proceso .container .col-7 p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(102, 102, 102, 1);
+}
+
+
+/* RECONOCIMIENTO */
+.evaluacion .reconocimiento {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.evaluacion .reconocimiento .bg-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.evaluacion .reconocimiento .bg-container img {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.evaluacion .reconocimiento .container h1 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 10px 30px;
+    margin-bottom: 25px;
+}
+
+.evaluacion .reconocimiento .container .row {
+    margin-top: 50px;
+}
+
+.evaluacion .reconocimiento .container .row .col-sm-4 {
+    height: 550px;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+}
+
+.evaluacion .reconocimiento .container .row .col-sm-4:hover {
+    border-radius: 10px;
+    background-color: rgba(72, 96, 150, .5);
+}
+
+.evaluacion .reconocimiento .container .row .img-container {
+    margin-top: 20px;
+}
+
+.evaluacion .reconocimiento .container .row .img-container img {
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: rgba(12, 19, 53, 1);
+}
+
+.evaluacion .reconocimiento .container .row h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    height: 80px;
+}
+
+.evaluacion .reconocimiento .container .row p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* QUE-ES */
+.evaluacion .que-es {
+    text-align: center;
+}
+
+.evaluacion .que-es .container h1 {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: rgba(156, 16, 6, 1);
+    border: 1px solid rgba(156, 16, 6, 1);
+    padding: 10px 30px;
+    margin-bottom: 25px;
+}
+
+.evaluacion .que-es .container .text {
+    margin-top: 15px;
+}
+
+.evaluacion .que-es .container .text p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(102, 102, 102, 1);
+}
+
+.evaluacion .que-es .container .row {
+    margin-top: 75px;
+}
+
+.evaluacion .que-es .container .row .img-container {
+
+}
+
+.evaluacion .que-es .container .row .img-container img {
+
+}
+
+.evaluacion .que-es .container .row h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(156, 16, 6, 1);
+    margin-top: 35px;
+}
+
+.evaluacion .que-es .container .row p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(102, 102, 102, 1);
+    margin-top: 20px;
+}
+
+/* FORMA */
+.evaluacion .forma {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.evaluacion .forma .bg-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.evaluacion .forma .bg-container img {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.evaluacion .forma .container .title h1 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    background-color: rgba(25, 32, 70, 1);
+    padding: 15px 30px;
+    margin-bottom: 50px;
+}
+
+.evaluacion .forma .container span {
+    font-weight: 700;
+    color: rgba(25, 32, 70, 1);
+}
+
+.evaluacion .forma .container p {
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(102, 102, 102, 1);
+}
+
+.evaluacion .forma .container .form-container {
+    position: relative;
+    margin-top: 25px;
+}
+
+.evaluacion .forma .container .form-container input[type=text],
+.evaluacion .forma .container .form-container input[type=email],
+.evaluacion .forma .container .form-container input[type=phone] {
+    display: block;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(102, 102, 102, 1);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(102, 102, 102, 1);
+    margin-bottom: 15px;
+}
+
+.evaluacion .forma .container .form-container input[type=submit] {
+    padding: 5px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(25, 32, 70, 1);
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+
+
+
 /*** Parallax CSS ****/
 .parallax-container {
     position: relative;
@@ -1823,6 +2166,15 @@ footer .footer-top .right .address a {
     .premio .modelo .container .col-sm-6 p {
         font-size: 12px;
         -webkit-line-clamp: 10; /* number of lines to show */
+    }
+
+    /* EVALUACION */
+    /* PROCESO */
+    .evaluacion .proceso .col-7.col-sm-3 {
+        width: 25%;
+    }
+    .evaluacion .proceso .col-7.col-sm-4 {
+        width: 33.333333333%;
     }
 }
 
@@ -2106,20 +2458,25 @@ footer .footer-top .right .address a {
     }
 
     /* BENEFICIOS */
+    .afiliados .beneficios {
+        height: 720px;
+    }
     .afiliados .beneficios h1 {
         font-size: 24px;
         margin-bottom: 25px;
     }
     .afiliados .beneficios .row {
+        height: 600px;
         padding: 20px 50px;
     }
     .afiliados .beneficios .row img {
-        height: 60px;
-        width: 60px;
+        height: 45px;
+        width: 45px;
     }
     .afiliados .beneficios .row p {
-        font-size: 18px;
-        margin-top: 20px;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
 
     /* FORMULARIO */
@@ -2275,82 +2632,168 @@ footer .footer-top .right .address a {
 
 
 
-
-
-    @media(max-width: 480px) {
-        /* FORO */
-        /* BANNER */
-        .foro .banner {
-            height: calc(100vh - 50px);
-        }
-        .foro .banner .container .carousel .carousel-inner .item {
-            top: 60%;
-            margin-left: 30px;
-        }
-        .foro .banner .container .carousel .carousel-inner .item p {
-            font-size: 12px;
-        }
-        .foro .banner .container .carousel .indicators .carousel-indicators {
-            margin-left: 30px;
-        }
-        .foro .banner .container .carousel .indicators .carousel-indicators li {
-            height: 16px;
-            width: 16px;
-            margin: 0 2px;
-        }
-
-        /* CONOCE */
-        .foro .conoce .conoce-title {
-            height: 150px;
-        }
-        .foro .conoce .video-side {
-            height: 200px;
-        }
-        .foro .conoce .conoce-title p {
-            font-size: 16px;
-        }
-
-        /* CONOCE-PARALLAX */
-        .foro .conoce-parallax {
-            height: 300px;
-        }
-        .foro .conoce-parallax .container p {
-            font-size: 16px;
-        }
-        .foro .conoce-parallax .container a {
-            width: 180px;
-            height: 40px;
-            font-size: 10px;
-            line-height: 40px;
-        }
-
-        /* PROYECTOS */
-        .foro .proyectos .container p {
-            font-size: 16px;
-        }
-        .foro .proyectos .container p::after {
-            width: 80px;
-        }
-
-        /* HISTORIAS */
-        .foro .historias-parallax {
-            min-height: 200px;
-        }
-        .foro .historias-parallax .col-sm-6 {
-            min-height: 100px;
-        }
-        .foro .historias-parallax .right-side a {
-            width: 180px;
-            left: 0;
-            right: 0;
-            margin: 0 auto;
-            font-size: 12px;
-            line-height: 40px;
-        }
-        .foro .historias-parallax .left-side p {
-            font-size: 18px;
-        }
-        .foro .historias-parallax .left-side p::after {
-            width: 80px;
-        }
+    /* EVALUACION */
+    /* PROCESO */
+    .evaluacion .proceso .col-7 {
+        width: 100%!important;
     }
+    .evaluacion .proceso .container .logos .row {
+        margin-top: 75px;
+    }
+    .evaluacion .proceso .container .logos .row .col-7 a {
+        cursor: default;
+    }
+    .evaluacion .proceso .container .logos .row .col-7:hover .img-container img,
+    .evaluacion .proceso .container .logos .row .col-7.active .img-container img {
+        background-color: rgba(36, 53, 106, 1);
+    }
+
+    .evaluacion .proceso .container .logos .row .col-7:hover .img-container::before,
+    .evaluacion .proceso .container .logos .row .col-7.active .img-container::before {
+        border-color: rgba(36, 53, 106, 1);
+    }
+
+    /* RECONOCIMIENTO */
+    .evaluacion .reconocimiento .container h1 {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    .evaluacion .reconocimiento .container .row {
+        margin-top: 50px;
+    }
+    .evaluacion .reconocimiento .container .row .col-sm-4 {
+        height: auto;
+        padding: 15px 15px;
+        margin-bottom: 50px;
+    }
+    .evaluacion .reconocimiento .container .row .img-container {
+        margin-top: 0px;
+    }
+    .evaluacion .reconocimiento .container .row h3 {
+        font-size: 20px;
+        height: auto;
+    }
+    .evaluacion .reconocimiento .container .row p {
+        font-size: 16px;
+    }
+
+    /* QUE-ES */
+    .evaluacion .que-es .container h1 {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    .evaluacion .que-es .container .text p {
+        font-size: 18px;
+    }
+    .evaluacion .que-es .container .row {
+        margin-top: 50px;
+    }
+    .evaluacion .que-es .container .row h3 {
+        margin-top: 0px;
+    }
+    .evaluacion .que-es .container .row p {
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    /* FORMA */
+    .evaluacion .forma .container .title h1 {
+        font-size: 22px;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+    .evaluacion .forma .container p {
+        font-size: 14px;
+    }
+    .evaluacion .forma .container .form-container {
+        position: relative;
+        margin-top: 25px;
+    }
+    .evaluacion .forma .container .form-container input[type=text],
+    .evaluacion .forma .container .form-container input[type=email],
+    .evaluacion .forma .container .form-container input[type=phone] {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+@media(max-width: 480px) {
+    /* FORO */
+    /* BANNER */
+    .foro .banner {
+        height: calc(100vh - 50px);
+    }
+    .foro .banner .container .carousel .carousel-inner .item {
+        top: 60%;
+        margin-left: 30px;
+    }
+    .foro .banner .container .carousel .carousel-inner .item p {
+        font-size: 12px;
+    }
+    .foro .banner .container .carousel .indicators .carousel-indicators {
+        margin-left: 30px;
+    }
+    .foro .banner .container .carousel .indicators .carousel-indicators li {
+        height: 16px;
+        width: 16px;
+        margin: 0 2px;
+    }
+
+    /* CONOCE */
+    .foro .conoce .conoce-title {
+        height: 150px;
+    }
+    .foro .conoce .video-side {
+        height: 200px;
+    }
+    .foro .conoce .conoce-title p {
+        font-size: 16px;
+    }
+
+    /* CONOCE-PARALLAX */
+    .foro .conoce-parallax {
+        height: 300px;
+    }
+    .foro .conoce-parallax .container p {
+        font-size: 16px;
+    }
+    .foro .conoce-parallax .container a {
+        width: 180px;
+        height: 40px;
+        font-size: 10px;
+        line-height: 40px;
+    }
+
+    /* PROYECTOS */
+    .foro .proyectos .container p {
+        font-size: 16px;
+    }
+    .foro .proyectos .container p::after {
+        width: 80px;
+    }
+
+    /* HISTORIAS */
+    .foro .historias-parallax {
+        min-height: 200px;
+    }
+    .foro .historias-parallax .col-sm-6 {
+        min-height: 100px;
+    }
+    .foro .historias-parallax .right-side a {
+        width: 180px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .foro .historias-parallax .left-side p {
+        font-size: 18px;
+    }
+    .foro .historias-parallax .left-side p::after {
+        width: 80px;
+    }
+}

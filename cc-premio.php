@@ -183,7 +183,7 @@
         <div class="img-container">
             <img src="img/cc-premio/modelo/bg.jpg" alt="">
         </div>
-        <div class="container light-spacing panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="container light-spacing panel-group" id="premioGroup-1" role="tablist" aria-multiselectable="true">
             <h1>
                 MODELO NACIONAL DE COMPETITIVIDAD
             </h1>
@@ -192,7 +192,7 @@
                 entendimiento de su organización en cada uno de los
                 siguientes principios.
             </p>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1"
+            <a data-toggle="collapse" data-parent="#premioGroup-1" href="#collapse-1"
                aria-expanded="true" aria-controls="collapse-1">
                 <div class="col-sm-6 panel panel-default">
                     <div class="col-sm-3">
@@ -214,8 +214,8 @@
                     </div>
                 </div>
             </a>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2"
-               aria-expanded="true" aria-controls="collapse-2">
+            <a class="collapsed" data-toggle="collapse" data-parent="#premioGroup-1" href="#collapse-2"
+               aria-expanded="false" aria-controls="collapse-2">
                 <div class="col-sm-6 panel panel-default">
                     <div class="col-sm-3">
                         <img src="img/cc-premio/icons/2.png" alt="">
@@ -237,8 +237,8 @@
                     </div>
                 </div>
             </a>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3"
-               aria-expanded="true" aria-controls="collapse-3">
+            <a class="collapsed" data-toggle="collapse" data-parent="#premioGroup-1" href="#collapse-3"
+               aria-expanded="false" aria-controls="collapse-3">
                 <div class="col-sm-6 panel panel-default">
                     <div class="col-sm-3">
                         <img src="img/cc-premio/icons/3.png" alt="">
@@ -258,8 +258,8 @@
                     </div>
                 </div>
             </a>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4"
-               aria-expanded="true" aria-controls="collapse-4">
+            <a class="collapsed" data-toggle="collapse" data-parent="#premioGroup-1" href="#collapse-4"
+               aria-expanded="false" aria-controls="collapse-4">
                 <div class="col-sm-6 panel panel-default">
                     <div class="col-sm-3">
                         <img src="img/cc-premio/icons/4.png" alt="">
@@ -280,8 +280,8 @@
                     </div>
                 </div>
             </a>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5"
-               aria-expanded="true" aria-controls="collapse-5">
+            <a class="collapsed" data-toggle="collapse" data-parent="#premioGroup-1" href="#collapse-5"
+               aria-expanded="false" aria-controls="collapse-5">
                 <div class="col-sm-6 panel panel-default">
                     <div class="col-sm-3">
                         <img src="img/cc-premio/icons/5.png" alt="">
@@ -301,8 +301,8 @@
                     </div>
                 </div>
             </a>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6"
-               aria-expanded="true" aria-controls="collapse-6">
+            <a class="collapsed" data-toggle="collapse" data-parent="#premioGroup-1" href="#collapse-6"
+               aria-expanded="false" aria-controls="collapse-6">
                 <div class="col-sm-6 panel panel-default">
                     <div class="col-sm-3">
                         <img src="img/cc-premio/icons/6.png" alt="">
@@ -324,8 +324,8 @@
                     </div>
                 </div>
             </a>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7"
-               aria-expanded="true" aria-controls="collapse-7">
+            <a class="collapsed" data-toggle="collapse" data-parent="#premioGroup-1" href="#collapse-7"
+               aria-expanded="false" aria-controls="collapse-7">
                 <div class="col-sm-6 panel panel-default">
                     <div class="col-sm-3">
                         <img src="img/cc-premio/icons/7.png" alt="">
@@ -346,8 +346,8 @@
                     </div>
                 </div>
             </a>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-8"
-               aria-expanded="true" aria-controls="collapse-8">
+            <a class="collapsed" data-toggle="collapse" data-parent="#premioGroup-1" href="#collapse-8"
+               aria-expanded="false" aria-controls="collapse-8">
                 <div class="col-sm-6 panel panel-default">
                     <div class="col-sm-3">
                         <img src="img/cc-premio/icons/8.png" alt="">
@@ -377,44 +377,50 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="detalles">
         <div class="container spacing">
-            <div class="col-sm-4 special-decoration">
-                <div class="img-container top-logo">
-                    <img src="img/cc-premio/icons/list.png" alt="">
-                </div>
-                <div class="middle">
-                    <p>
-                        PROCESO DE EVALUACIÓN
-                    </p>
-                </div>
-                <div class="img-container bottom-logo">
-                    <img src="img/cc-premio/icons/mas.png" alt="">
-                </div>
+            <div class="col-sm-4">
+                <a href="cc-evaluacion.php#proceso">
+                    <div class="img-container top-logo">
+                        <img src="img/cc-premio/icons/list.png" alt="">
+                    </div>
+                    <div class="middle">
+                        <p>
+                            PROCESO DE EVALUACIÓN
+                        </p>
+                    </div>
+                    <div class="img-container bottom-logo">
+                        <img src="img/cc-premio/icons/mas.png" alt="">
+                    </div>
+                </a>
             </div>
             <div class="col-sm-4">
-                <div class="img-container top-logo">
-                    <img src="img/cc-premio/icons/prize.png" alt="">
-                </div>
-                <div class="middle">
-                    <p>
-                        RECONOCIMIENTO A LOS GANADORES
-                    </p>
-                </div>
-                <div class="img-container bottom-logo">
-                    <img src="img/cc-premio/icons/mas.png" alt="">
-                </div>
+                <a href="cc-evaluacion.php#reconocimiento">
+                    <div class="img-container top-logo">
+                        <img src="img/cc-premio/icons/prize.png" alt="">
+                    </div>
+                    <div class="middle">
+                        <p>
+                            RECONOCIMIENTO A LOS GANADORES
+                        </p>
+                    </div>
+                    <div class="img-container bottom-logo">
+                        <img src="img/cc-premio/icons/mas.png" alt="">
+                    </div>
+                </a>
             </div>
             <div class="col-sm-4">
-                <div class="img-container top-logo">
-                    <img src="img/cc-premio/icons/group.png" alt="">
-                </div>
-                <div class="middle">
-                    <p>
-                        ¿POR QUÉ SER PARTE DEL EQUIPO DE EVALUADORES?
-                    </p>
-                </div>
-                <div class="img-container bottom-logo">
-                    <img src="img/cc-premio/icons/mas.png" alt="">
-                </div>
+                <a href="cc-evaluacion.php#que-es">
+                    <div class="img-container top-logo">
+                        <img src="img/cc-premio/icons/group.png" alt="">
+                    </div>
+                    <div class="middle">
+                        <p>
+                            ¿POR QUÉ SER PARTE DEL EQUIPO DE EVALUADORES?
+                        </p>
+                    </div>
+                    <div class="img-container bottom-logo">
+                        <img src="img/cc-premio/icons/mas.png" alt="">
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -449,4 +455,5 @@
             </a>
         </div>
     </section>
-    <?php include('footer.php'); ?>
+</div>
+<?php include('footer.php'); ?>

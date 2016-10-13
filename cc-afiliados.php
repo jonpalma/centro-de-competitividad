@@ -66,31 +66,43 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <div class="row no-margin">
-
                             <div class="col-sm-4">
                                 <img src="img/cc-afiliados/icons/1.png" alt="">
+                                <p>
+                                    Descuentos en su participación en talleres, conferencias, consultorías,
+                                    asi como en el Premio Chihuahua a la Competitividad y el Foro de
+                                    Trabajo en Equipo.
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="img/cc-afiliados/icons/2.png" alt="">
                                 <p>
                                     Descuentos en su participación en talleres, conferencias, consultorías,
                                     asi como en el Premio Chihuahua a la Competitividad y el foro de
                                     Trabajo en Equipo.
                                 </p>
                             </div>
-
                             <div class="col-sm-4">
-                                <img src="img/cc-afiliados/icons/2.png" alt="">
+                                <img src="img/cc-afiliados/icons/3.png" alt="">
                                 <p>
                                     Su logotipo en nuestra página web y en la publicidad de los eventos
                                     que se organicen.
                                 </p>
                             </div>
-
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row no-margin">
                             <div class="col-sm-4">
-                                <img src="img/cc-afiliados/icons/3.png" alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="img/cc-afiliados/icons/4.png" alt="">
                                 <p>
                                     Poder ser nombrados como asociados y/o consejeros.
                                 </p>
                             </div>
-
+                            <div class="col-sm-4">
+                            </div>
                         </div>
                     </div>
                 </div>
