@@ -85,11 +85,11 @@
             <div class="row">
                 <div class="col-sm-6">
                     <a href="#video-modal-proyecto1" data-toggle="modal" data-target="#video-modal-proyecto1">
-                        <div class="img-container left-side">
+                        <div class="img-container img-left-side">
                             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/proyectos/proyecto1.jpg" alt="">
                         </div>
                     </a>
-                    <div class="desc">
+                    <div class="desc text-left-side">
                         <p>
                             Así se vivió el XX Foro Estatal de Trabajo en Equipo.
                         </p>
@@ -97,11 +97,11 @@
                 </div>
                 <div class="col-sm-6">
                     <a href="#video-modal-proyecto2" data-toggle="modal" data-target="#video-modal-proyecto2">
-                        <div class="img-container right-side">
+                        <div class="img-container img-right-side">
                             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/proyectos/proyecto2.jpg" alt="">
                         </div>
                     </a>
-                    <div class="desc">
+                    <div class="desc text-right-side">
                         <p>
                             Conoce la experiencia de FIH Mexico Industry.
                         </p>
@@ -111,11 +111,11 @@
             <div class="row">
                 <div class="col-sm-6">
                     <a href="#video-modal-proyecto3" data-toggle="modal" data-target="#video-modal-proyecto3">
-                        <div class="img-container left-side">
+                        <div class="img-container img-left-side">
                             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/proyectos/proyecto3.jpg" alt="">
                         </div>
                     </a>
-                    <div class="desc">
+                    <div class="desc text-left-side">
                         <p>
                             Conoce la experiencia de Grupo Cementos de Chihuahua.
                         </p>
@@ -123,11 +123,11 @@
                 </div>
                 <div class="col-sm-6">
                     <a href="#video-modal-proyecto4" data-toggle="modal" data-target="#video-modal-proyecto4">
-                        <div class="img-container right-side">
+                        <div class="img-container img-right-side">
                             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/proyectos/proyecto4.jpg" alt="">
                         </div>
                     </a>
-                    <div class="desc">
+                    <div class="desc text-right-side">
                         <p>
                             Conoce la experiencia de CONMED.
                         </p>

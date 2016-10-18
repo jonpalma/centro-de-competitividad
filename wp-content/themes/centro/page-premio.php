@@ -113,33 +113,30 @@
         <div class="container spacing">
             <div class="title">
                 <h1>
-                    EMPRESAS GANADORAS
+                    PROXIMAMENTE DESCUBRE A LOS GANADORES
+                    DEL PREMIO 2016
                 </h1>
             </div>
             <div class="row">
                 <div class="col-sm-6">
                     <a href="#video-modal-proyecto1" data-toggle="modal" data-target="#video-modal-proyecto1">
-                        <div class="img-container left-side">
-                            <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-premio/videos/1.jpg" alt="">
+                        <div class="img-container img-left-side">
+                            <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-premio/videos/who.png" alt="">
                         </div>
                     </a>
-                    <div class="desc">
+                    <div class="desc text-left-side">
                         <p>
-                            Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit.
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-6 pre-middle">
                     <a href="#video-modal-main" data-toggle="modal" data-target="#video-modal-main">
-                        <div class="img-container right-side">
-                            <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-premio/videos/2.jpg" alt="">
+                        <div class="img-container img-right-side">
+                            <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-premio/videos/who.png" alt="">
                         </div>
                     </a>
-                    <div class="desc">
+                    <div class="desc text-right-side">
                         <p>
-                            Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit.
                         </p>
                     </div>
                 </div>
@@ -147,27 +144,23 @@
             <div class="row">
                 <div class="col-sm-6 post-middle">
                     <a href="#video-modal-main" data-toggle="modal" data-target="#video-modal-main">
-                        <div class="img-container left-side">
-                            <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-premio/videos/3.jpg" alt="">
+                        <div class="img-container img-left-side">
+                            <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-premio/videos/who.png" alt="">
                         </div>
                     </a>
-                    <div class="desc">
+                    <div class="desc text-left-side">
                         <p>
-                            Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit.
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <a href="#video-modal-main" data-toggle="modal" data-target="#video-modal-main">
-                        <div class="img-container right-side">
-                            <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-premio/videos/4.jpg" alt="">
+                        <div class="img-container img-right-side">
+                            <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-premio/videos/who.png" alt="">
                         </div>
                     </a>
-                    <div class="desc">
+                    <div class="desc text-right-side">
                         <p>
-                            Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit.
                         </p>
                     </div>
                 </div>

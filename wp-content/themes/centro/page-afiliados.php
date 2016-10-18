@@ -162,10 +162,10 @@
                     </div>
                     <div class="item">
                         <div class="row no-margin">
-                            <div class="col-sm-3"></div>
                             <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/17.png" alt="ruba" class="img-responsive center-block"></div>
                             <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/18.png" alt="Deloitte" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"></div>
+                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/19.png" alt="Deloitte" class="img-responsive center-block"></div>
+                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/20.png" alt="Deloitte" class="img-responsive center-block"></div>
                         </div>
                     </div>
                 </div>
