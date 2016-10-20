@@ -6,39 +6,46 @@
     <!--/* BANNER  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="banner" id="banner">
+    <div class="banner" id="banner">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <div class="img-container">
-                        <img class="banner-bg" src="<?php echo bloginfo('template_url').'/'; ?>img/banner/1.jpg" alt="Banner">
-                    </div>
-                    <div class="container">
-                        <div class="vertical-align text-center white">
-                            <img class="logo" src="<?php echo bloginfo('template_url').'/'; ?>img/banner/cchcp.png" alt="CChCP">
-                            <h1>
-                                IMPULSAMOS LA CULTURA DE INNOVACIÓN, CALIDAD Y COMPETITIVIDAD
-                            </h1>
-                        </div>
+                <?php
+                $arrayBanner = CFS()->get('banner_array');
+                $arrayEnd = end($arrayBanner);
+                $counter = 0;
+                foreach($arrayBanner as $banner)
+                {
+                ?>
+                <?php
+                    if($counter == 0)
+                    {
+                        echo '<div class="item active">';
+                    }
+                    else
+                    {
+                        echo '<div class="item">';
+                    }
+                ?>
+                <div class="img-container">
+                    <img class="banner-bg" src="<?php echo $banner['banner_img']; ?>" alt="">
+                </div>
+                <div class="container">
+                    <div class="vertical-align text-center white">
+                        <img class="logo" src="<?php echo $banner['banner_logo']; ?>" alt="CChCP">
+                        <h1>
+                            <?php echo $banner['banner_title']; ?>
+                        </h1>
+                        <h3>
+                            <?php echo $banner['banner_text']; ?>
+                        </h3>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="img-container">
-                        <img class="banner-bg" src="<?php echo bloginfo('template_url').'/'; ?>img/banner/2.jpg" alt="Banner">
-                    </div>
-                    <div class="container">
-                        <div class="vertical-align text-center white">
-                            <img class="logo" src="<?php echo bloginfo('template_url').'/'; ?>img/banner/logo1.png" alt="CChCP">
-                            <h1>
-                                EMPRESAS EN CAMINO A LA EXCELENCIA
-                            </h1>
-                            <h3>
-                                10 de Noviembre
-                            </h3>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                    $counter++;
+                    echo '</div>';
+                }
+                ?>
             </div>
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -50,114 +57,109 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* CONOCENOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="conocenos light-spacing" id="conocenos">
+    <div class="conocenos light-spacing" id="conocenos">
         <div class="container text-center">
             <h1 class="heading blue">
-                CONÓCENOS
+                <?php echo CFS() -> get('conocenos_title'); ?>
             </h1>
             <p class="text">
-                El Centro de Competitividad Chihuahua fue fundado a principios de los 90´s
-                como Centro Chihuahuense para la Calidad y Productividad , una institución dedicada
-                a fortalecer la competitividad en el estado a través del desarrollo empresarial y
-                la calidad educativa.
+                <?php echo CFS() -> get('conocenos_text'); ?>
             </p>
             <div class="divider"></div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* PROGRAMAS INSTITUCIONALES  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="programas" id="programas">
+    <div class="programas" id="programas">
         <div class="parallax-container">
             <div class="parallax">
                 <img src="<?php echo bloginfo('template_url').'/'; ?>img/parallax/1.jpg" alt="Parallax">
             </div>
             <div class="container text-center light-spacing">
                 <h1 class="heading white">
-                    PROGRAMAS INSTITUCIONALES
+                    <?php echo CFS() -> get('programas_title'); ?>
                 </h1>
                 <div class="row no-margin">
+                    <?php
+                    $arrayProgramas = CFS()->get('programas_institucionales_array');
+                    $arrayEnd = end($arrayProgramas);
+                    $counter = 0;
+                    foreach($arrayProgramas as $programa)
+                    {
+                        if($counter < 3)
+                        {
+                    ?>
                     <div class="col-sm-4">
-                        <img class="img-responsive center-block" src="<?php echo bloginfo('template_url').'/'; ?>img/programas/1.png" alt="Foro Estatal de Trabajo en Equipo">
+                        <img class="img-responsive center-block" src="<?php echo $programa['programas_logo']; ?>" alt="">
                     </div>
-                    <div class="col-sm-4">
-                        <img class="img-responsive center-block" src="<?php echo bloginfo('template_url').'/'; ?>img/programas/2.png" alt="Premio Chihuahua a la Competitividad">
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-responsive center-block" src="<?php echo bloginfo('template_url').'/'; ?>img/programas/3.png" alt="Chihuahua Educa">
-                    </div>
+                    <?php
+                            $counter++;
+                        }
+                    }
+                    ?>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* NUESTROS AFILIADOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="afilia light-spacing" id="afiliados">
+    <div class="afilia light-spacing" id="afiliados">
         <div class="container text-center">
             <div>
                 <h1 class="heading red">
-                    NUESTROS AFILIADOS
+                    <?php echo CFS() -> get('afiliados_title'); ?>
                 </h1>
             </div>
             <a href="afiliados">
                 <h1 class="red top-note">
-                    Conocer más
+                    <?php echo CFS() -> get('afiliados_link_text'); ?>
                 </h1>
             </a>
             <div id="carousel-afiliados" class="carousel slide" data-ride="carousel" data-interval="false">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <div class="row no-margin">
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/1.png" alt="Citlali" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/2.png" alt="GCC" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/3.png" alt="Índigo" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/4.png" alt="DEMIC" class="img-responsive center-block"></div>
-                        </div>
+                    <?php
+                    $arrayAfiliados = CFS()->get('afiliados_logos_array');
+                    $arrayEnd = end($arrayAfiliados);
+                    $counter = 0;
+                    foreach($arrayAfiliados as $afiliado)
+                    {
+                    ?>
+                    <?php
+                        if($counter == 0)
+                        {
+                            echo '<div class="item active">';
+                            echo '<div class="row no-margin">';
+                        }
+                        else if($counter%4 == 0)
+                        {
+                            echo '</div>';
+                            echo '</div>';
+                            echo '<div class="item">';
+                            echo '<div class="row no-margin">';
+                        }
+                    ?>
+                    <div class="col-sm-3">
+                        <img src="<?php echo $afiliado['afiliado_logo']; ?>" alt="" class="img-responsive center-block">
                     </div>
-                    <div class="item">
-                        <div class="row no-margin">
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/5.png" alt="Bodegas Pinesque" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/6.png" alt="I. Soto D." class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/7.png" alt="TSAC" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/8.png" alt="GPA" class="img-responsive center-block"></div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row no-margin">
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/9.png" alt="PROESMMA" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/10.png" alt="ruba" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/11.png" alt="Deloitte" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/12.png" alt="LIACSA" class="img-responsive center-block"></div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row no-margin">
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/13.png" alt="PROESMMA" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/14.png" alt="ruba" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/15.png" alt="Deloitte" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/16.png" alt="LIACSA" class="img-responsive center-block"></div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row no-margin">
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/17.png" alt="ruba" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/18.png" alt="Deloitte" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/19.png" alt="Deloitte" class="img-responsive center-block"></div>
-                            <div class="col-sm-3"><img src="<?php echo bloginfo('template_url').'/'; ?>img/afiliados/20.png" alt="Deloitte" class="img-responsive center-block"></div>
-                        </div>
-                    </div>
+                    <?php
+                        $counter++;
+                    }
+                    echo '</div>';
+                    echo '</div>';
+                    ?>
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#carousel-afiliados" role="button" data-slide="prev">
@@ -170,19 +172,21 @@
                 </a>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* SERVICIOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="servicios" id="servicios">
+    <div class="servicios" id="servicios">
         <div class="parallax-container">
             <div class="parallax">
                 <img src="<?php echo bloginfo('template_url').'/'; ?>img/parallax/2.jpg" alt="Parallax">
             </div>
             <div class="container light-spacing text-center">
-                <h1 class="heading white">SERVICIOS</h1>
+                <h1 class="heading white">
+                    <?php echo CFS() -> get('servicios_title'); ?>
+                </h1>
                 <div class="row no-margin">
                     <div class="col-sm-4">
                         <div class="img-container">
@@ -214,111 +218,85 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* BLOG  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="blog light-spacing" id="blog">
+    <div class="blog light-spacing" id="blog">
         <div class="container text-center">
-            <h1 class="heading blue">BLOG</h1>
+            <h1 class="heading blue">
+                <?php echo CFS() -> get('servicios_title'); ?>
+            </h1>
             <div id="carousel-blog" class="carousel slide" data-ride="carousel" data-interval="false">
-
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <div class="carousel-caption">
-                            <div class="row no-margin">
-                                <div class="col-sm-4">
-                                    <div class="img-container">
-                                        <img class="img-responsive center-block" src="<?php echo bloginfo('template_url').'/'; ?>img/blog/1.jpg" alt="Post">
-                                    </div>
-                                    <p class="post-date">21-JUN-16</p>
-                                    <h4 class="post-title blue">
-                                        <a href="">AMPLLO OIR BNHUML AL QUE BAJDOP.</a>
-                                    </h4>
-                                    <p class="post-excerpt blue">
-                                        Estamu ajl quenime quens
-                                        qunmei jhsd jahjaja el.
-                                    </p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="img-container">
-                                        <img class="img-responsive center-block" src="<?php echo bloginfo('template_url').'/'; ?>img/blog/2.jpg" alt="Post">
-                                    </div>
-                                    <p class="post-date">25-JUN-16</p>
-                                    <h4 class="post-title blue">
-                                        <a href="">AMPLLO OIR BNHUML AL QUE BAJDOP.</a>
-                                    </h4>
-                                    <p class="post-excerpt blue">
-                                        Estamu ajl quenime quens
-                                        qunmei jhsd jahjaja el.
-                                    </p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="img-container">
-                                        <img class="img-responsive center-block" src="<?php echo bloginfo('template_url').'/'; ?>img/blog/3.jpg" alt="Post">
-                                    </div>
-                                    <p class="post-date">25-JUN-16</p>
-                                    <h4 class="post-title blue">
-                                        <a href="">AMPLLO OIR BNHUML AL QUE BAJDOP.</a>
-                                    </h4>
-                                    <p class="post-excerpt blue">
-                                        Estamu ajl quenime quens
-                                        qunmei jhsd jahjaja el.
-                                    </p>
-                                </div>
-                            </div>
+                    <?php
+                    $counter = 0;
+                    if (have_posts())
+                    {
+                        the_post();
+                    }
+                    ?>									  
+                    <?php
+                    query_posts('showposts=12');
+                    if (have_posts())
+                    {
+                        while (have_posts())
+                        { 
+                            the_post();
+                            if($counter == 0)
+                            {
+                                echo '<div class="item active">';
+                                echo '<div class="carousel-caption">';
+                                echo '<div class="row no-margin">';
+                            }
+                            else if($counter%3 == 0)
+                            {
+                                echo '</div>';
+                                echo '</div>';
+                                echo '</div>';
+                                echo '<div class="item">';
+                                echo '<div class="carousel-caption">';
+                                echo '<div class="row no-margin">';
+                            }
+                    ?>
+                    <div class="col-sm-4">
+                        <div class="img-container">
+                            <img class="img-responsive center-block" src="<?php echo the_post_thumbnail_url(); ?>" alt="Post">
                         </div>
+                        <p class="post-date">
+                            <?php echo get_the_date('d-m-Y'); ?>
+                        </p>
+                        <h4 class="post-title blue">
+                            <a href="<?php echo the_permalink();?>">
+                                <?php echo get_the_title(); ?>
+                            </a>
+                        </h4>
+                        <p class="post-excerpt blue">
+                            <?php
+                            if (strlen(get_the_content()) > 40)
+                            {
+                                echo substr(get_the_content(), 0, 40).' [...]';
+                            }
+                            else
+                            {
+                                echo get_the_content();
+                            }
+                            ?>
+                        </p>
                     </div>
-                    <div class="item">
-                        <div class="carousel-caption">
-                            <div class="row no-margin">
-                                <div class="col-sm-4">
-                                    <div class="img-container">
-                                        <img class="img-responsive center-block" src="<?php echo bloginfo('template_url').'/'; ?>img/blog/1.jpg" alt="Post">
-                                    </div>
-                                    <p class="post-date">21-JUN-16</p>
-                                    <h4 class="post-title blue">
-                                        <a href="">AMPLLO OIR BNHUML AL QUE BAJDOP.</a>
-                                    </h4>
-                                    <p class="post-excerpt blue">
-                                        Estamu ajl quenime quens
-                                        qunmei jhsd jahjaja el.
-                                    </p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="img-container">
-                                        <img class="img-responsive center-block" src="<?php echo bloginfo('template_url').'/'; ?>img/blog/2.jpg" alt="Post">
-                                    </div>
-                                    <p class="post-date">25-JUN-16</p>
-                                    <h4 class="post-title blue">
-                                        <a href="">AMPLLO OIR BNHUML AL QUE BAJDOP.</a>
-                                    </h4>
-                                    <p class="post-excerpt blue">
-                                        Estamu ajl quenime quens
-                                        qunmei jhsd jahjaja el.
-                                    </p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="img-container">
-                                        <img class="img-responsive center-block" src="<?php echo bloginfo('template_url').'/'; ?>img/blog/3.jpg" alt="Post">
-                                    </div>
-                                    <p class="post-date">25-JUN-16</p>
-                                    <h4 class="post-title blue">
-                                        <a href="">AMPLLO OIR BNHUML AL QUE BAJDOP.</a>
-                                    </h4>
-                                    <p class="post-excerpt blue">
-                                        Estamu ajl quenime quens
-                                        qunmei jhsd jahjaja el.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                            $counter++;
+                        }
+                        echo '</div>';
+                        echo '</div>';
+                        echo '</div>';
+                    }
+                    wp_reset_query();
+                    ?>
                 </div>
-
                 <!-- Controls -->
                 <a class="left carousel-control" href="#carousel-blog" role="button" data-slide="prev">
                     <span class="sr-only">Previous</span>
@@ -328,17 +306,22 @@
                 </a>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* CONTACTO  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="contacto light-spacing" id="contacto">
+    <div class="contacto light-spacing" id="contacto">
         <div class="container text-center">
-            <h1 class="heading blue">CONTACTO</h1>
+            <h1 class="heading blue">
+                <?php echo CFS() -> get('contacto_title'); ?>
+            </h1>
             <div class="row no-margin blue contact-form">
                 <div class="col-sm-7">
+                   <?php echo do_shortcode('[contact-form-7 id="4" title="Formulario Index"]'); ?>
+                   
+                   <!--
                     <div class="row no-margin">
                         <div class="col-sm-6">
                             <input type="text" placeholder="NOMBRE">
@@ -361,20 +344,22 @@
                     <div class="text-right">
                         <input type="submit" value="ENVIAR">
                     </div>
+                    -->
                 </div>
                 <div class="col-sm-5 text-left">
                     <div class="row no-margin">
                         <div class="col-sm-12 col-xs-7">
-                            <p class="blue city">CHIHUAHUA</p>
+                            <p class="blue city">
+                                <?php echo CFS() -> get('contacto_city'); ?>
+                            </p>
                             <p class="blue">
-                                Prol. Teófilo Borunda #10820<br>
-                                Col. Labor de Terrazas C.P. 31625<br>
-                                Edificio Fechac 2° Piso.<br>
-                                Chihuahua,Chih.<br>
-                                TEL. (614) 400-74-79<br>
-                                &ensp;&ensp;&ensp;&ensp;&ensp;(614) 400-74-70 y (614) 400-75-01
-                                <br><br>
-                                <a href="mailto:aleramos@cchcp.org.mx">aleramos@cchcp.org.mx</a>
+                                <?php echo CFS() -> get('contacto_address'); ?>
+                                <br/>
+                                <br/>
+                                <?php echo CFS() -> get('contacto_phone'); ?>
+                                <br/>
+                                <br/>
+                                <a href="mailto:<?php echo CFS() -> get('contacto_email'); ?>"><?php echo CFS() -> get('contacto_email'); ?></a>
                             </p>
                         </div>
                         <div class="col-sm-12 col-xs-5">
@@ -387,7 +372,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* MAPA  */-->

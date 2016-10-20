@@ -6,7 +6,7 @@
     <!--/* PROCESO */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="proceso spacing" id="proceso">
+    <div class="proceso spacing" id="proceso">
         <div class="container">
             <h1>
                 PROCESO DE EVALUACIÓN
@@ -21,12 +21,10 @@
                         </a>
                         <div class="hidden-lg hidden-sm hidden-md">
                             <h3>
-                                Registro
+                                <?php echo CFS() -> get('registro_title'); ?>
                             </h3>
                             <p>
-                                Deberás llenar el formulario de registro y
-                                realizar el pago correspondiente para tu
-                                participación.
+                                <?php echo CFS() -> get('registro_text'); ?>
                             </p>
                         </div>
                     </div>
@@ -38,12 +36,10 @@
                         </a>
                         <div class="hidden-lg hidden-sm hidden-md">
                             <h3>
-                                Capacitación Modelo Nacional de Competitividad
+                                <?php echo CFS() -> get('capacitacion_title'); ?>
                             </h3>
                             <p>
-                                Son una serie de talleres donde se capacita al personal 
-                                de tu empresa para conocer el Modelo y como deberán 
-                                entregar los reportes.
+                                <?php echo CFS() -> get('capacitacion_text	'); ?>
                             </p>
                         </div>
                     </div>
@@ -55,14 +51,10 @@
                         </a>
                         <div class="hidden-lg hidden-sm hidden-md">
                             <h3>
-                                Reporte Ejecutivo
+                                <?php echo CFS() -> get('reporte_ejecutivo_title'); ?>
                             </h3>
                             <p>
-                                Este reporte contiene la información básica de la empresa 
-                                considerando cada uno de los criterios del Modelo Nacional 
-                                de Competitividad. Este reporte se entrega al comité de 
-                                evaluadores para su revisión, mismo que definirá que empresa 
-                                continua en el proceso.
+                                <?php echo CFS() -> get('reporte_ejecutivo_text'); ?>
                             </p>
                         </div>
                     </div>
@@ -74,13 +66,10 @@
                         </a>
                         <div class="hidden-lg hidden-sm hidden-md">
                             <h3>
-                                Reporte de Sistemas
+                                <?php echo CFS() -> get('reporte_sistemas_title'); ?>
                             </h3>
                             <p>
-                                Se profundiza sobre los procesos de calidad de las organizaciones 
-                                que califican a esta fase, a través de la evaluación de un documento 
-                                extenso y detallado basado en los criterios del Modelo Nacional 
-                                de Competitividad.
+                                <?php echo CFS() -> get('reporte_sistemas_text'); ?>
                             </p>
                         </div>
                     </div>
@@ -94,12 +83,10 @@
                         </a>
                         <div class="hidden-lg hidden-sm hidden-md">
                             <h3>
-                                Evaluación
+                                <?php echo CFS() -> get('evaluacion_title'); ?>
                             </h3>
                             <p>
-                                Serán visitados por un equipo de evaluadores quienes constataran 
-                                los procesos que lleva acabo la empresa de acuerdo a lo entregado 
-                                en su reporte ejecutivo y de sistemas
+                                <?php echo CFS() -> get('evaluacion_text'); ?>
                             </p>
                         </div>
                     </div>
@@ -111,12 +98,10 @@
                         </a>
                         <div class="hidden-lg hidden-sm hidden-md">
                             <h3>
-                                Premiación
+                                <?php echo CFS() -> get('premiacion_title'); ?>
                             </h3>
                             <p>
-                                Se realiza una ceremonia en la cual se revelan a los ganadores 
-                                del Sistema de Premios de acuerdo a la categoría en la que 
-                                hayan participado
+                                <?php echo CFS() -> get('premiacion_text'); ?>
                             </p>
                         </div>
                     </div>
@@ -128,12 +113,10 @@
                         </a>
                         <div class="hidden-lg hidden-sm hidden-md">
                             <h3>
-                                Retroalimentación
+                                <?php echo CFS() -> get('retroalimentacion_title'); ?>
                             </h3>
                             <p>
-                                El equipo de evaluadores realiza un reporte donde recibirán 
-                                retroalimentación relativa a las áreas sólidas y de oportunidad 
-                                de sus sistemas y procesos de calidad. 
+                                <?php echo CFS() -> get('retroalimentacion_text'); ?>
                             </p>
                         </div>
                     </div>
@@ -142,92 +125,75 @@
             <div class="text tab-content hidden-xs">
                 <div role="tabpanel" class="tab-pane fade in active" id="logo1">
                     <h3>
-                        Registro
+                        <?php echo CFS() -> get('registro_title'); ?>
                     </h3>
                     <p>
-                        Deberás llenar el formulario de registro y
-                        realizar el pago correspondiente para tu
-                        participación.
+                        <?php echo CFS() -> get('registro_text'); ?>
                     </p>
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="logo2">
                     <h3>
-                        Capacitación Modelo Nacional de Competitividad
+                        <?php echo CFS() -> get('capacitacion_title'); ?>
                     </h3>
                     <p>
-                        Son una serie de talleres donde se capacita al personal 
-                        de tu empresa para conocer el Modelo y como deberán 
-                        entregar los reportes.
+                        <?php echo CFS() -> get('capacitacion_text	'); ?>
                     </p>
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="logo3">
                     <h3>
-                        Reporte Ejecutivo
+                        <?php echo CFS() -> get('reporte_ejecutivo_title'); ?>
                     </h3>
                     <p>
-                        Este reporte contiene la información básica de la empresa 
-                        considerando cada uno de los criterios del Modelo Nacional 
-                        de Competitividad. Este reporte se entrega al comité de 
-                        evaluadores para su revisión, mismo que definirá que empresa 
-                        continua en el proceso.
+                        <?php echo CFS() -> get('reporte_ejecutivo_text'); ?>
                     </p>
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="logo4">
                     <h3>
-                        Reporte de Sistemas
+                        <?php echo CFS() -> get('reporte_sistemas_title'); ?>
                     </h3>
                     <p>
-                        Se profundiza sobre los procesos de calidad de las organizaciones 
-                        que califican a esta fase, a través de la evaluación de un documento 
-                        extenso y detallado basado en los criterios del Modelo Nacional 
-                        de Competitividad.
+                        <?php echo CFS() -> get('reporte_sistemas_text'); ?>
                     </p>
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="logo5">
                     <h3>
-                        Evaluación
+                        <?php echo CFS() -> get('evaluacion_title'); ?>
                     </h3>
                     <p>
-                        Serán visitados por un equipo de evaluadores quienes constataran 
-                        los procesos que lleva acabo la empresa de acuerdo a lo entregado 
-                        en su reporte ejecutivo y de sistemas
+                        <?php echo CFS() -> get('evaluacion_text'); ?>
                     </p>
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="logo6">
                     <h3>
-                        Premiación
+                        <?php echo CFS() -> get('premiacion_title'); ?>
                     </h3>
                     <p>
-                        Se realiza una ceremonia en la cual se revelan a los ganadores 
-                        del Sistema de Premios de acuerdo a la categoría en la que 
-                        hayan participado
+                        <?php echo CFS() -> get('premiacion_text'); ?>
                     </p>
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="logo7">
                     <h3>
-                        Retroalimentación
+                        <?php echo CFS() -> get('retroalimentacion_title'); ?>
                     </h3>
                     <p>
-                        El equipo de evaluadores realiza un reporte donde recibirán 
-                        retroalimentación relativa a las áreas sólidas y de oportunidad 
-                        de sus sistemas y procesos de calidad. 
+                        <?php echo CFS() -> get('retroalimentacion_text'); ?>
                     </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* RECONOCIMIENTO */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="reconocimiento spacing" id="reconocimiento">
+    <div class="reconocimiento spacing" id="reconocimiento">
         <div class="bg-container">
             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-evaluacion/reconocimiento/bg.jpg" alt="">
         </div>
         <div class="container">
             <h1>
-                RECONOCIMIENTO A LOS GANADORES
+                <?php echo CFS() -> get('reconocimiento_title'); ?>
             </h1>
             <div class="row">
                 <div class="col-sm-4">
@@ -235,13 +201,10 @@
                         <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-evaluacion/icon/prize.png" alt="">
                     </div>
                     <h3>
-                        Premio Chihuahua a la Competitividad
+                        <?php echo CFS() -> get('premio_competitividad_title'); ?>
                     </h3>
                     <p>
-                        Se otorga a las organizaciones participantes que logren el mayor
-                        puntaje en la evaluación anual, basada en el Modelo Nacional de
-                        Competitividad o en el Modelo para MIPYMES Competitivas y tenga
-                        3 años de experiencia en sistemas de administración por calidad.
+                        <?php echo CFS() -> get('premio_competitividad_text'); ?>
                     </p>
                 </div>
                 <div class="col-sm-4">
@@ -249,14 +212,10 @@
                         <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-evaluacion/icon/prize.png" alt="">
                     </div>
                     <h3>
-                        Premio Chihuahua Mejoramiento hacia la Calidad
+                        <?php echo CFS() -> get('premio_mejoramiento_title'); ?>
                     </h3>
                     <p>
-                        Se otorga a organizaciones que en el ciclo del concurso logran el
-                        mayor puntaje de mejoramiento de un sistema de administración por
-                        calidad total con respecto al ciclo anterior. Para obtener este
-                        reconocimiento es indispensable la participacion en al menos dos
-                        ediciones continuas.
+                        <?php echo CFS() -> get('premio_mejoramiento_text'); ?>
                     </p>
                 </div>
                 <div class="col-sm-4">
@@ -264,36 +223,28 @@
                         <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-evaluacion/icon/prize.png" alt="">
                     </div>
                     <h3>
-                        Premio Chihuahua Compromiso con la Calidad
+                        <?php echo CFS() -> get('premio_compromiso_title'); ?>
                     </h3>
                     <p>
-                        Se otorga a las organizaciones que han alcanzado un nivel de calidad
-                        básico aceptable, en la evaluación de sus sistemas operativos y
-                        administrativos, basados en el Modelo Nacional para la Competitividad
-                        (PYMES o empresas grandes). Este reconocimiento es otorgado a
-                        organizaciones que cuenten con los elementos suficientes de calidad
-                        y sólo en su primer año de participación.
+                        <?php echo CFS() -> get('premio_compromiso_text'); ?>
                     </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* QUE-ES */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="que-es spacing" id="que-es">
+    <div class="que-es spacing" id="que-es">
         <div class="container">
             <h1>
-                ¿QUÉ ES UN EVALUADOR?
+                <?php echo CFS() -> get('evaluador_title'); ?>
             </h1>
             <div class="text">
                 <p>
-                    Son especialistas en competitividad organizacional, responsables de analizar
-                    a cada una de las empresas que participan en el Premio emitiendo sus recomendaciones
-                    al Comité de Premiación y realizando una retroalimentación a cada una de las
-                    organizaciones participantes.
+                    <?php echo CFS() -> get('evaluador_desc'); ?>
                 </p>
             </div>
             <div class="row">
@@ -302,11 +253,10 @@
                         <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-evaluacion/icon/book1.png" alt="">
                     </div>
                     <h3>
-                        Evaluador Junior
+                        <?php echo CFS() -> get('evaluador_junior_title'); ?>
                     </h3>
                     <p>
-                        Son quienes participan por primera vez y adquieren mayores conocimientos
-                        de los modelos de competitividad.
+                        <?php echo CFS() -> get('evaluador_junior_text'); ?>
                     </p>
                 </div>
                 <div class="col-sm-4">
@@ -314,11 +264,10 @@
                         <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-evaluacion/icon/book2.png" alt="">
                     </div>
                     <h3>
-                        Evaluador Senior
+                        <?php echo CFS() -> get('evaluador_senior_title'); ?>
                     </h3>
                     <p>
-                        En su segundo año de participación refuerza sus conocimientos y participa
-                        como coordinador de uno de los equipos de evaluación.
+                        <?php echo CFS() -> get('evaluador_senior_text'); ?>
                     </p>
                 </div>
                 <div class="col-sm-4">
@@ -326,56 +275,52 @@
                         <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-evaluacion/icon/book3.png" alt="">
                     </div>
                     <h3>
-                        Experto Facilitador
+                        <?php echo CFS() -> get('experto_title'); ?>
                     </h3>
                     <p>
-                        A partir de su 3er. año de participación capacita a evaluadores junior y
-                        coordina los equipos de evaluación.
+                        <?php echo CFS() -> get('experto_text'); ?>
                     </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* FORMA */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="forma spacing" id="forma">
+    <div class="forma spacing" id="forma">
         <div class="bg-container">
             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-evaluacion/forma/bg.jpg" alt="">
         </div>
         <div class="container">
             <div class="title">
                 <h1>
-                    ¿TE INTERESA SER EVALUADOR?
+                    <?php echo CFS() -> get('requisitos_title'); ?>
                 </h1>
             </div>
             <div class="col-xs-6">
                 <p>
                     <span>Requisitos:</span><br/>
-                    - Nivel Licenciatura (minimo).<br/>
-                    - Ser un mando medio en su organización.<br/>
-                    - Conocimiento de procesos y sistemas de la organización.<br/>
-                    - Capacidad de influencia y persuasión.<br/>
-                    - Disposición al cambio.<br/>
-                    - Iniciativa, positivo.<br/>
-                    - Superación y mejora continua.
+                    <?php echo CFS() -> get('requisitos_desc'); ?>
                 </p>
                 <div class="form-container">
                     <form action="" method="POST" id="contact-form">
+                       <?php echo do_shortcode('[contact-form-7 id="92" title="Formulario Evaluador"]'); ?>
+                       <!--
                         <input type="text" name="name" id="name" placeholder="Nombre">
                         <input type="email" name="email" id="email" placeholder="Correo Electrónico">
                         <input type="phone" name="phone" id="phone" placeholder="Teléfono">
                         <div class="text-right">
                             <input type="submit" value="ENVIAR" id="form-submit">
                         </div>
+                        -->
                     </form>
                 </div>
             </div>
             <div class="col-xs-6"></div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* FOOTER */-->
