@@ -208,34 +208,19 @@
                 </div>
                 <div class="modal-body">
                     <h2>
-                        CONVIERTETE EN AFILIADO
+                        <?php echo CFS() -> get('modal_formulario_title'); ?>
                     </h2>
                     <p>
-                        Llena nuestro formulario y un asesor
-                        se estará comunicando contigo.
+                        <?php echo CFS() -> get('modal_formulario_text'); ?>
                     </p>
-                    <div class="row no-margin">
-                        <input type="text" placeholder="NOMBRE">
-                        <input type="text" placeholder="TELÉFONO">
-                        <input type="email" placeholder="CORREO">
-                        <div class="col-sm-6 left-side">
-                            <input type="text" placeholder="EMPRESA">
-                        </div>
-                        <div class="col-sm-6 right-side">
-                            <input type="text" placeholder="PUESTO">
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <input type="submit" value="ENVIAR">
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                    <?php echo do_shortcode('[contact-form-7 id="94" title="Formulario Afiliado"]'); ?>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <!--/* END */-->
+        <!--/* END */-->
 
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-</div>
-<?php include('footer.php'); ?>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    </div>
+    <?php include('footer.php'); ?>
