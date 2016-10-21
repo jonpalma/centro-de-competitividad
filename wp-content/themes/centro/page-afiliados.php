@@ -188,11 +188,50 @@
             <h1>
                 <?php echo CFS() -> get('formulario_title'); ?>
             </h1>
-            <a href="">
+            <a href="#modal-afiliados" data-toggle="modal" data-target="#modal-afiliados">
                 <?php echo CFS() -> get('formulario_link_text'); ?>
             </a>
         </div>
     </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--/* MODAL-FORMULARIO-AFILIADOS */-->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal-afiliados">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2>
+                        CONVIERTETE EN AFILIADO
+                    </h2>
+                    <p>
+                        Llena nuestro formulario y un asesor
+                        se estará comunicando contigo.
+                    </p>
+                    <div class="row no-margin">
+                        <input type="text" placeholder="NOMBRE">
+                        <input type="text" placeholder="TELÉFONO">
+                        <input type="email" placeholder="CORREO">
+                        <div class="col-sm-6 left-side">
+                            <input type="text" placeholder="EMPRESA">
+                        </div>
+                        <div class="col-sm-6 right-side">
+                            <input type="text" placeholder="PUESTO">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" value="ENVIAR">
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* END */-->

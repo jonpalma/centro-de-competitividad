@@ -953,71 +953,36 @@ footer .footer-top .right .address a {
     min-height: 100%;
     min-width: 100%;
     left: 50%;
+    transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
 }
 
 .foro .proyectos .container .row .img-container {
     position: relative;
     height: 260px;
-    width: 500px;
+    width: 100%;
     max-width: 100%;
     overflow: hidden;
 }
 
-.foro .proyectos .container .row .desc {
-    margin-top: 10px;
-    padding: 0px 10px;
-}
-
-.foro .proyectos .container .row .desc p {
+.foro .proyectos .container .row p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #f9f9f9f9;
-}
-
-.foro .proyectos .container .img-left-side {
-    margin: 0 auto;
-    margin-left: 0;
-}
-
-.foro .proyectos .container .img-right-side {
-    margin: 0 auto;
-    margin-right: 0;
-}
-
-.foro .proyectos .container .text-left-side {
-    position: absolute;
-    max-width: 500px;
-    min-width: none;
-    top: 260px;
-    left: 0;
-}
-
-.foro .proyectos .container .text-right-side {
-    position: absolute;
-    max-width: 500px;
-    min-width: none;
-    top: 260px;
-    right: 0;
-}
-
-.foro .proyectos .container .text-left-side p,
-.foro .proyectos .container .text-right-side p {
-    max-height: 60px;
+    margin-top: 10px;
 }
 
 .foro .proyectos .container .row .img-container::after {
     position: absolute;
-    top: 0;
     content: '';
     height: 100%;
     width: 100%;
+    top: 0;
     background: url(img/cc-foro/icons/play.png) no-repeat center center;
+    transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
-    transition: all 300ms ease;
 }
 
 .foro .proyectos .container .row .img-container:hover::after {
@@ -1076,6 +1041,71 @@ footer .footer-top .right .address a {
 
 
 /* AFILIADOS */
+/* MODAL */
+.afiliados .modal {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.afiliados .modal h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(36, 53, 106, 1);
+}
+
+.afiliados .modal p {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(115, 115, 115, 1);
+}
+
+.afiliados .modal {
+    margin: 50px 0px;
+}
+
+.afiliados .modal input[type=text],
+.afiliados .modal input[type=email] {
+    font-size: 16px;
+    color: rgba(115, 115, 115, 1);
+    width: 100%;
+    min-height: 45px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border: 1px solid rgba(115, 115, 115, 1);
+    background-color: transparent;
+}
+
+.afiliados .modal .left-side {
+    padding-left: 0;
+    padding-right: 7.5px;
+}
+
+.afiliados .modal .right-side {
+    padding-right: 0;
+    padding-left: 7.5px;
+}
+
+.afiliados .modal .modal-body {
+    height: auto;
+}
+
+.afiliados .modal .modal-footer {
+    text-align: center;
+}
+
+.afiliados .modal input[type=submit] {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    height: 40px;
+    padding: 5px 20px;
+    background-color: rgba(25, 32, 70, 1);
+    border-radius: 5px;
+    border: none;
+}
+
+
+
 /* BANNER */
 .afiliados .banner .carousel .item {
     height: calc(100vh - 80px);
@@ -1147,7 +1177,7 @@ footer .footer-top .right .address a {
 /* BENEFICIOS */
 .afiliados .beneficios {
     background-color: rgba(21, 53, 126, 1);
-    height: 700px;
+    height: 580px;
 }
 
 .afiliados .beneficios h1 {
@@ -1161,8 +1191,8 @@ footer .footer-top .right .address a {
 
 .afiliados .beneficios .row {
     text-align: center;
+    height: 400;
     padding: 30px 50px;
-    height: 550px;
 }
 
 .afiliados .beneficios .row img {
@@ -1191,6 +1221,7 @@ footer .footer-top .right .address a {
 }
 
 .afiliados .beneficios .carousel-inner {
+    height: 400px;
     width: calc(100% - 100px);
     margin: 0 auto;
 }
@@ -1360,6 +1391,8 @@ footer .footer-top .right .address a {
     background-color: rgba(125, 125, 125, 1);
 }
 
+
+
 /* BENEFICIOS */
 .premio .beneficios {
     position: relative;
@@ -1412,6 +1445,8 @@ footer .footer-top .right .address a {
     color: rgba(102, 102, 102, 1);
 }
 
+
+
 /* EMPRESAS */
 .premio .empresas .container .title {
     text-align: center;
@@ -1438,76 +1473,41 @@ footer .footer-top .right .address a {
     min-height: 100%;
     min-width: 100%;
     left: 50%;
+    transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
 }
 
 .premio .empresas .container .row .img-container {
     position: relative;
     height: 260px;
-    width: 500px;
+    width: 100%;
     max-width: 100%;
     overflow: hidden;
 }
 
-.premio .empresas .container .row .desc {
-    margin-top: 10px;
-    padding: 0px 10px;
-}
-
-.premio .empresas .container .row .desc p {
+.premio .empresas .container .row p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    color: rgba(70, 70, 70, 1);
-}
-
-.premio .empresas .container .img-left-side {
-    margin: 0 auto;
-    margin-left: 0;
-}
-
-.premio .empresas .container .img-right-side {
-    margin: 0 auto;
-    margin-right: 0;
-}
-
-.premio .empresas .container .text-left-side {
-    position: absolute;
-    max-width: 500px;
-    min-width: none;
-    top: 260px;
-    left: 0;
-}
-
-.premio .empresas .container .text-right-side {
-    position: absolute;
-    max-width: 500px;
-    min-width: none;
-    top: 260px;
-    right: 0;
-}
-
-.premio .empresas .container .text-left-side p,
-.premio .empresas .container .text-right-side p {
-    max-height: 60px;
+    font-size: 18px;
+    color: #f9f9f9f9;
+    margin-top: 10px;
 }
 
 .premio .empresas .container .row .img-container::after {
     position: absolute;
-    top: 0;
-    /* CAMBIAR PARA QUE SALGA EL ICNO POR '' */
+    /* CAMBIAR CONTENT POR '' PARA ACTIVAR IMAGEN */
     content: none;
     height: 100%;
     width: 100%;
-    background: url(img/cc-premio/icons/play.png) no-repeat center center;
+    top: 0;
+    background: url(img/cc-foro/icons/play.png) no-repeat center center;
+    transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
-    transition: all 300ms ease;
 }
 
 .premio .empresas .container .row .img-container:hover::after {
-    background: url(img/cc-premio/icons/red-play.png) no-repeat center center;
+    background: url(img/cc-foro/icons/red-play.png) no-repeat center center;
 }
 
 /* MODELO */
@@ -2193,6 +2193,22 @@ footer .footer-top .right .address a {
     }
 
 
+    /* AFILIADOS */
+    /* BENEFICIOS */
+    .afiliados .beneficios {
+        height: 655px;
+    }
+    .afiliados .beneficios .row {
+        height: 475;
+    }
+    .afiliados .beneficios .row p {
+        font-size: 20px;
+    }
+    .afiliados .beneficios .carousel-inner {
+        height: 475px;
+    }
+
+
     /* PREMIO */
     /* MODELO */
     .premio .modelo .container .col-sm-6 {
@@ -2218,6 +2234,22 @@ footer .footer-top .right .address a {
     .navbar-nav>li {
         padding-left: 1px;
         padding-right: 1px;
+    }
+
+
+    /* AFILIADOS */
+    /* BENEFICIOS */
+    .afiliados .beneficios {
+        height: 680px;
+    }
+    .afiliados .beneficios .row {
+        height: 500;
+    }
+    .afiliados .beneficios .row p {
+        font-size: 17px;
+    }
+    .afiliados .beneficios .carousel-inner {
+        height: 500px;
     }
 
 
@@ -2376,11 +2408,11 @@ footer .footer-top .right .address a {
         font-size: 26px;
     }
 
-    /* AFILIADOS */
-    .index .afiliados .heading {
+    /* AFILIA */
+    .index .afilia .heading {
         font-size: 26px;
     }
-    .index .afiliados .bottom-note {
+    .index .afilia .bottom-note {
         font-size: 14px;
     }
 
@@ -2463,39 +2495,16 @@ footer .footer-top .right .address a {
     }
 
     /* PROYECTOS */
+    .foro .proyectos .title {
+        margin-bottom: 50px;
+    }
     .foro .proyectos .container p {
-        font-size: 24px;
-        margin-left: 30px;
-        margin-right: 30px;
+        font-size: 18px;
     }
     .foro .proyectos .container .col-sm-6 {
-        height: 350px;
-    }
-    .foro .proyectos .container .col-sm-6 .left-side {
-        margin-top: -30px;
-    }
-    .foro .proyectos .container .left-side {
-        margin: 0 auto;
-    }
-    .foro .proyectos .container .right-side {
-        margin: 0 auto;
-    }
-    .foro .proyectos .container .text-left-side {
-        top: 260px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
-    .foro .proyectos .container .text-right-side {
-        top: 260px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
-    .foro .proyectos .container .text-left-side p,
-    .foro .proyectos .container .text-right-side p {
-        text-align: center;
-        max-height: 90px;
+        margin: 0px 0px;
+        height: auto;
+        padding: 0px 50px;
     }
     .foro .proyectos .container .row .img-container {
         margin: 0 auto;
@@ -2522,6 +2531,27 @@ footer .footer-top .right .address a {
 
 
     /* AFILIADOS */
+    /* MODAL */
+    .afiliados .modal h2 {
+        font-size: 24px;
+    }
+    .afiliados .modal p {
+        font-size: 16px;
+    }
+    .afiliados .modal input[type=text],
+    .afiliados .modal input[type=email] {
+        font-size: 14px;
+    }
+    .afiliados .modal .left-side {
+        padding-right: 0px;
+    }
+    .afiliados .modal .right-side {
+        padding-left: 0px;
+    }
+    .afiliados .modal input[type=submit] {
+        font-size: 14px;
+    }
+
     /* BANNER */
     .afiliados .banner .carousel .item {
         height: calc(100vh - 50px);
@@ -2548,14 +2578,14 @@ footer .footer-top .right .address a {
 
     /* BENEFICIOS */
     .afiliados .beneficios {
-        height: 720px;
+        height: 755px;
     }
     .afiliados .beneficios h1 {
         font-size: 24px;
         margin-bottom: 25px;
     }
     .afiliados .beneficios .row {
-        height: 600px;
+        height: 575px;
         padding: 20px 50px;
     }
     .afiliados .beneficios .row img {
@@ -2566,6 +2596,9 @@ footer .footer-top .right .address a {
         font-size: 16px;
         margin-top: 10px;
         margin-bottom: 30px;
+    }
+    .afiliados .beneficios .carousel-inner {
+        height: 575px;
     }
 
     /* FORMULARIO */
@@ -2627,48 +2660,22 @@ footer .footer-top .right .address a {
     }
 
     /* EMPRESAS */
+    .premio .empresas .title {
+        margin-bottom: 50px;
+    }
     .premio .empresas .container h1 {
         font-size: 24px;
     }
-    .foro .proyectos .container .col-sm-6 {
-        height: 350px;
-    }
-    .premio .empresas .container .row .desc {
-        text-align: center;
-        margin-top: 15px;
-        padding: 0px 15px;
-    }
-    .premio .empresas .container .row .desc p {
+    .premio .empresas .container p {
         font-size: 18px;
     }
-    .premio .empresas .container .img-left-side {
-        margin: 0 auto;
-    }
-    .premio .empresas .container .img-right-side {
-        margin: 0 auto;
-    }
-    .premio .empresas .container .post-middle {
-        margin-top: 0;
+    .premio .empresas .container .col-sm-6 {
+        margin: 0px 0px;
+        height: auto;
+        padding: 0px 50px;
     }
     .premio .empresas .container .row .img-container {
         margin: 0 auto;
-    }
-    .premio .empresas .container .text-left-side {
-        top: 260px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
-    .premio .empresas .container .text-right-side {
-        top: 260px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
-    .premio .empresas .container .text-left-side p,
-    .premio .empresas .container .text-right-side p {
-        text-align: center;
-        max-height: 90px;
     }
 
     /* MODELO */

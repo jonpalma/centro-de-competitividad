@@ -102,7 +102,7 @@
                 </p>
             </div>
             <div>
-                <a href="">
+                <a target="_blank" href="<?php echo CFS() -> get('convocatoria_archive'); ?>">
                     <?php echo CFS() -> get('convocatoria_formulario_title'); ?>
                 </a>
             </div>
@@ -141,31 +141,22 @@
                 echo '<a href="#video-modal-proyecto'.$counter.'" data-toggle="modal" data-target="#video-modal-proyecto'.$counter.'">';
                 if($counter%2 == 0)
                 {
-                    echo '<div class="img-container img-left-side">';
+                    echo '<div class="img-container">';
                 }
                 else
                 {
-                    echo '<div class="img-container img-right-side">';
+                    echo '<div class="img-container">';
                 }
                 ?>
                 <img src="<?php echo $proyecto['proyecto_img_video']; ?>" alt="">
                 <?php
                 echo '</div>';
                 echo '</a>';
-                if($counter%2 == 0)
-                {
-                    echo '<div class="desc text-left-side">';
-                }
-                else
-                {
-                    echo '<div class="desc text-right-side">';
-                }
                 ?>
                 <p>
                     <?php echo $proyecto['proyecto_desc']; ?>
                 </p>
                 <?php
-                echo '</div>';
                 echo '<div class="modal fade video" id="video-modal-proyecto'.$counter.'" role="dialog" tabindex="-1">';
                 ?>
                 <div class="modal-dialog">
@@ -203,7 +194,7 @@
                 </p>
             </div>
             <div class="col-sm-6 right-side">
-                <a download href="<?php echo CFS() -> get('historias_archive'); ?>">
+                <a target="_blank" href="<?php echo CFS() -> get('historias_archive'); ?>">
                     <?php echo CFS() -> get('historias_download_title'); ?>
                 </a>
             </div>

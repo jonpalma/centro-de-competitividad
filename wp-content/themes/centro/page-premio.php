@@ -121,34 +121,25 @@
             ?>
             <div class="col-sm-6">
                 <?php
-                echo '<a href="#video-modal-ganador'.$counter.'" data-toggle="modal" data-target="#video-modal-ganador'.$counter.'">';
+                //echo '<a href="#video-modal-ganador'.$counter.'" data-toggle="modal" data-target="#video-modal-ganador'.$counter.'">';
                 if($counter%2 == 0)
                 {
-                    echo '<div class="img-container img-left-side">';
+                    echo '<div class="img-container">';
                 }
                 else
                 {
-                    echo '<div class="img-container img-right-side">';
+                    echo '<div class="img-container">';
                 }
                 ?>
                 <img src="<?php echo $ganador['ganador_img_video']; ?>" alt="">
                 <?php
                 echo '</div>';
-                echo '</a>';
-                if($counter%2 == 0)
-                {
-                    echo '<div class="desc text-left-side">';
-                }
-                else
-                {
-                    echo '<div class="desc text-right-side">';
-                }
+                //echo '</a>';
                 ?>
                 <p>
                     <?php echo $ganador['ganador_desc']; ?>
                 </p>
                 <?php
-                echo '</div>';
                 echo '<div class="modal fade video" id="video-modal-ganador'.$counter.'" role="dialog" tabindex="-1">';
                 ?>
                 <div class="modal-dialog">
@@ -305,7 +296,7 @@
             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-premio/bases/bg.jpg" alt="">
         </div>
         <div class="container spacing">
-            <a href="">
+            <a target="_blank" href="<?php echo CFS() -> get('convocatoria_archive'); ?>">
                 <?php echo CFS() -> get('convocatoria_title'); ?>
             </a>
         </div>
@@ -320,7 +311,7 @@
             <h1>
                 <?php echo CFS() -> get('conoce_title'); ?>
             </h1>
-            <a href="">
+            <a target="_blank" href="<?php echo CFS() -> get('conoce_archive'); ?>">
                 <?php echo CFS() -> get('conoce_pdf_title'); ?>
             </a>
         </div>
