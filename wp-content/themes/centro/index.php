@@ -319,32 +319,7 @@
             </h1>
             <div class="row no-margin blue contact-form">
                 <div class="col-sm-7">
-                   <?php echo do_shortcode('[contact-form-7 id="4" title="Formulario Index"]'); ?>
-                   
-                   <!--
-                    <div class="row no-margin">
-                        <div class="col-sm-6">
-                            <input type="text" placeholder="NOMBRE">
-                            <input type="email" placeholder="EMAIL">
-                            <label for="destinatario">
-                                <select class="selectpicker" name="destinatario">
-                                    <option value="" class="hidden" disabled selected>DESTINATARIO</option>
-                                    <option value="EJEMPLO">EJEMPLO</option>
-                                    <option value="EJEMPLO">EJEMPLO</option>
-                                    <option value="EJEMPLO">EJEMPLO</option>
-                                </select>
-                            </label>
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="text" placeholder="ORGANIZACIÓN">
-                            <input type="text" placeholder="TELÉFONO">
-                            <textarea rows="7" placeholder="MENSAJE"></textarea>
-                        </div>
-                    </div>
-                    <div class="text-right">
-                        <input type="submit" value="ENVIAR">
-                    </div>
-                    -->
+                    <?php echo do_shortcode('[contact-form-7 id="4" title="Formulario Index"]'); ?>
                 </div>
                 <div class="col-sm-5 text-left">
                     <div class="row no-margin">

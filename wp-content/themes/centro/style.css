@@ -11,7 +11,11 @@
     src: url(fonts/avian.ttf);
 }
 
-/* GENERAL STYLES */
+
+
+
+
+/***** GENERAL STYLES *****/
 a {
     outline: none;
 }
@@ -81,7 +85,11 @@ a {
     margin: 0;
 }
 
-/* VIDEO */
+
+
+
+
+/***** VIDEO *****/
 .video .modal-dialog {
     margin: 0;
     width: 100%;
@@ -121,7 +129,10 @@ a {
 }
 
 
-/* NAVBAR */
+
+
+
+/***** NAVBAR *****/
 .navbar {
     min-height: 80px;
     border-radius: 0;
@@ -225,7 +236,9 @@ a {
 
 
 
-/* INDEX */
+
+
+/***** INDEX *****/
 /* BANNER */
 .index .banner .carousel .item {
     height: calc(100vh - 80px);
@@ -638,130 +651,20 @@ select:-moz-focusring {
     margin-top: 20px;
 }
 
-/* FOOTER */
-footer .container {
-    height: auto;
-}
-
-footer .footer-top::after {
-    position: absolute;
-    content: '';
-    display: block;
-    background-color: #3b549a; 
-    height: 1px;
-    width: 35%;
-    right: 0;
-}
-
-footer .footer-top .left .footer-logo img {
-    width: 100%;
-    height: auto;
-    padding: 5px;
-    margin-left: -25%;
-}
-
-footer .footer-top .left p {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: #676666;
-    margin-top: 20px;
-}
-
-footer .footer-top .center {
-    height: auto;
-}
-
-footer .footer-top .center .links-container {
-    height: auto;
-}
-
-footer .footer-top .center .social {
-    height: auto;
-}
-
-footer .footer-top .center .links-container .links {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: #2c508c;
-    margin-top: 8px;
-}
-
-footer .footer-top .center .links-container .links a {
-    text-decoration: none!important;
-}
-
-footer .footer-top .center .social img {
-    margin-top: 20px;
-}
-
-footer .footer-top .right {
-    height: auto;
-}
-
-footer .footer-top .right .mark-img {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #24356a;
-}
-
-footer .footer-top .right .mark-img::before {
-    position: absolute;
-    content: '';
-    display: inline-block;
-    background: url(img/cc-foro/icons/mark.png) no-repeat center center;
-    height: 25px;
-    width: 20px;
-    left: -10px;
-}
-
-footer .footer-top .right .address {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: #24356a;
-}
-
-footer .footer-top .right .address a {
-    text-decoration: none!important;
-}
-
-
-.footer-rights {
-    background-color: rgba(33, 33, 33, 0.78);
-}
-
-.footer-rights p {
-    margin: 0;
-    padding: 10px 0;
-    font-family: 'Myriad Pro', sans-serif;
-    font-size: 14px;
-}
-
-.footer-rights a {
-    color: #e3e3e3;
-    text-decoration: none!important;
-}
-
-.footer-rights a:hover,
-.footer-rights a:focus {
-    color: #d3d3d3;
-}
-
 /* MAPA */
-.googleMap {
+.index .googleMap {
     height: 350px;
 }
 
 
 
 
-/* FORO */
+
+/***** FORO *****/
 /* BANNER */
 .foro .banner {
     height: calc(100vh - 80px);
+    overflow: hidden;
 }
 
 .foro .banner .carousel .carousel-inner .item .img-container {
@@ -820,7 +723,6 @@ footer .footer-top .right .address a {
     padding-bottom: 50px;
 
 }
-
 
 /* CONOCE */
 .foro .conoce .conoce-title {
@@ -886,7 +788,6 @@ footer .footer-top .right .address a {
     background: url(img/cc-foro/icons/red-play.png) no-repeat center center;
 }
 
-
 /* CONOCE-PARALLAX */
 .foro .conoce-parallax {
     height: 400px;
@@ -924,7 +825,6 @@ footer .footer-top .right .address a {
 .foro .conoce-parallax .container a:hover {
     background-color: #00d231;
 }
-
 
 /* PROYECTOS */
 .foro .proyectos .container .title {
@@ -989,7 +889,6 @@ footer .footer-top .right .address a {
     background: url(img/cc-foro/icons/red-play.png) no-repeat center center;
 }
 
-
 /* HISTORIAS */
 .foro .historias-parallax {
     min-height: 300px;
@@ -1040,7 +939,9 @@ footer .footer-top .right .address a {
 
 
 
-/* AFILIADOS */
+
+
+/***** AFILIADOS *****/
 /* MODAL */
 .afiliados .modal {
     text-align: center;
@@ -1104,8 +1005,6 @@ footer .footer-top .right .address a {
     border: none;
 }
 
-
-
 /* BANNER */
 .afiliados .banner .carousel .item {
     height: calc(100vh - 80px);
@@ -1145,8 +1044,6 @@ footer .footer-top .right .address a {
     margin-top: 0;
 }
 
-
-
 /* DESCRIPCION */
 .afiliados .descripcion p {
     font-family: 'Quicksand', sans-serif;
@@ -1171,8 +1068,6 @@ footer .footer-top .right .address a {
     font-size: 22px;
     color: rgba(36, 53, 106, 1);
 }
-
-
 
 /* BENEFICIOS */
 .afiliados .beneficios {
@@ -1226,8 +1121,6 @@ footer .footer-top .right .address a {
     margin: 0 auto;
 }
 
-
-
 /* AFILIA */
 .afiliados .afilia .carousel-control.left,
 .afiliados .afilia .carousel-control.right {
@@ -1243,8 +1136,6 @@ footer .footer-top .right .address a {
     width: calc(100% - 100px);
     margin: 0 auto;
 }
-
-
 
 /* FORMULARIO */
 .afiliados .formulario {
@@ -1315,7 +1206,7 @@ footer .footer-top .right .address a {
 
 
 
-/* PREMIO */
+/***** PREMIO *****/
 /* BANNER */
 .premio .banner .carousel .item {
     height: calc(100vh - 80px);
@@ -1355,8 +1246,6 @@ footer .footer-top .right .address a {
     margin-top: 0;
 }
 
-
-
 /* DESCRIPCION */
 .premio .descripcion h1 {
     font-family: 'Montserrat', sans-serif;
@@ -1390,8 +1279,6 @@ footer .footer-top .right .address a {
     width: 65%;
     background-color: rgba(125, 125, 125, 1);
 }
-
-
 
 /* BENEFICIOS */
 .premio .beneficios {
@@ -1444,8 +1331,6 @@ footer .footer-top .right .address a {
     font-size: 18px;
     color: rgba(102, 102, 102, 1);
 }
-
-
 
 /* EMPRESAS */
 .premio .empresas .container .title {
@@ -1810,7 +1695,7 @@ footer .footer-top .right .address a {
 
 
 
-/* EVALUACION */
+/***** EVALUACION *****/
 /* PROCESO */
 .evaluacion .proceso {
     min-height: calc(100vh - 80px);
@@ -1922,7 +1807,6 @@ footer .footer-top .right .address a {
     color: rgba(102, 102, 102, 1);
 }
 
-
 /* RECONOCIMIENTO */
 .evaluacion .reconocimiento {
     position: relative;
@@ -2033,14 +1917,6 @@ footer .footer-top .right .address a {
     margin-top: 75px;
 }
 
-.evaluacion .que-es .container .row .img-container {
-
-}
-
-.evaluacion .que-es .container .row .img-container img {
-
-}
-
 .evaluacion .que-es .container .row h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
@@ -2146,7 +2022,563 @@ footer .footer-top .right .address a {
 
 
 
-/*** Parallax CSS ****/
+/***** TALLERES *****/
+/* BANNER */
+.talleres .banner {
+    position: relative;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+    text-align: center;
+}
+
+.talleres .banner .bg-container {
+    height: 100%;
+    width: 100%;
+}
+
+.talleres .banner .bg-container img {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.talleres .banner .container .img-container,
+.talleres .banner .container h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.talleres .banner .container .img-container {
+    height: 120px;
+    top: 20vh;
+}
+
+.talleres .banner .container .img-container img {
+    height: 100%;
+}
+
+.talleres .banner .container h1 {
+    font-family: 'Avian', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+    top: 50vh;
+    margin: 0px 50px;
+}
+
+/* NOSOTROS */
+.talleres .nosotros {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(25, 32, 70, 1);
+}
+
+.talleres .nosotros h1 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.talleres .nosotros p {
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.talleres .nosotros p::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgba(25, 32, 70, 1);
+}
+
+/* COMO */
+.talleres .como {
+    position: relative;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+.talleres .como .bg-container {
+    height: 100%;
+    width: 100%;
+}
+
+.talleres .como .bg-container img {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.talleres .como .container h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 70px;
+}
+
+.talleres .como .container ul {
+    position: relative;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.talleres .como .container br {
+    display: none;
+}
+
+/* CONFERENCIAS */
+.talleres .conferencias {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(30, 42, 74, 1);
+}
+
+.talleres .conferencias h1 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 70px;
+}
+
+.talleres .conferencias .container .col-sm-2 {
+    text-align: center;
+    overflow: hidden;
+}
+
+.talleres .conferencias .container .col-sm-2 .img-container {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    max-width: 90px;
+    background-color: rgba(25, 32, 70, 1);
+    border-radius: 8px;
+}
+
+.talleres .conferencias .container .col-sm-2 .img-container img {
+    height: 100%;
+    width: 100%;
+    padding: 15px 15px;
+}
+
+.talleres .conferencias .container .col-sm-2 h3 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.talleres .conferencias .container .col-sm-2 h3,
+.talleres .conferencias .container .col-sm-2 .img-container {
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+}
+
+.talleres .conferencias .container .col-sm-2:hover h3 {
+    color: rgba(156, 16, 6, 1);
+}
+
+.talleres .conferencias .container .col-sm-2:hover .img-container {
+    background-color: rgba(156, 16, 6, 1);
+}
+
+/* CULTURA */
+.talleres .cultura {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+.talleres .cultura .bg-container {
+    height: 100%;
+    width: 100%;
+}
+
+.talleres .cultura .bg-container img {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.talleres .cultura .container h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 80px;
+}
+
+.talleres .cultura .container p {
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.talleres .cultura .container span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+
+
+
+/***** EDUCA *****/
+/* GENERAL */
+.educa {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* BANNER */
+.educa .banner .carousel .item {
+    height: calc(100vh - 80px);
+    overflow: hidden;
+}
+
+.educa .banner .carousel .img-container {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.educa .banner .carousel .item .banner-bg {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.educa .banner .container {
+    height: calc(100vh - 80px);
+}
+
+.educa .banner .logo {
+    margin-bottom: 50px;
+    max-width: 100%;
+}
+
+.educa .banner h1 {
+    font-family: 'AvianBold', sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+/* INFORMACION */
+.educa .informacion p {
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(36, 53, 106, 1);
+    padding: 0px 20px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.educa .informacion p::after {
+    position: absolute;
+    display: inline-block;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: '';
+    height: 1px;
+    width: 20%;
+    background-color: rgba(36, 53, 106, 1);
+}
+
+/* PROGRAMA */
+.educa .programa {
+    text-align: center;
+    background: url(img/cc-educa/programa/bg.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.educa .programa h1 {
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+}
+
+.educa .programa p {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* CONOCE */
+.educa .conoce .container h1 {
+    font-size: 28px;
+    color: rgba(203, 10, 29, 1);
+}
+
+.educa .conoce .container h1::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 140px;
+    background-color: rgba(203, 10, 29, 1);
+    margin-top: 10px;
+}
+
+.educa .conoce .container .col-sm-6 {
+    margin: 30px 0;
+    height: 320px;
+    overflow: hidden;
+}
+
+.educa .conoce .container .col-sm-6 img {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.educa .conoce .container .row .img-container {
+    position: relative;
+    height: 260px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.educa .conoce .container .row p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #f9f9f9f9;
+    margin-top: 10px;
+}
+
+.educa .conoce .container .row .img-container::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: url(img/cc-foro/icons/play.png) no-repeat center center;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+}
+
+.educa .conoce .container .row .img-container:hover::after {
+    background: url(img/cc-foro/icons/red-play.png) no-repeat center center;
+}
+
+/* BENEFICIOS */
+.educa .beneficios {
+    background: url(img/cc-educa/beneficios/bg.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.educa .beneficios h1 {
+    font-size: 28px;
+    color: rgba(22, 62, 129, 1);
+    margin-bottom: 50px;
+}
+
+.educa .beneficios h1::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 140px;
+    background-color: rgba(22, 62, 129, 1);
+    margin-top: 10px;
+}
+
+.educa .beneficios ul {
+    font-size: 18px;
+    color: rgba(22, 62, 129, 1);
+}
+
+/* COMO */
+.educa .como h1 {
+    font-size: 28px;
+    color: rgba(22, 62, 129, 1);
+    margin-bottom: 50px;
+}
+
+.educa .como h1::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 140px;
+    background-color: rgba(22, 62, 129, 1);
+    margin-top: 10px;
+}
+
+.educa .como ul {
+    font-size: 18px;
+    color: rgba(22, 62, 129, 1);
+}
+
+.educa .como ul > br {
+    display: none;
+}
+
+.educa .como ul > li {
+    margin-left: 20px;
+}
+
+
+
+
+
+/***** FOOTER *****/
+footer .container {
+    height: auto;
+}
+
+footer .footer-top::after {
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: #3b549a; 
+    height: 1px;
+    width: 35%;
+    right: 0;
+}
+
+footer .footer-top .left .footer-logo img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-left: -25%;
+}
+
+footer .footer-top .left p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #676666;
+    margin-top: 20px;
+}
+
+footer .footer-top .center {
+    height: auto;
+}
+
+footer .footer-top .center .links-container {
+    height: auto;
+}
+
+footer .footer-top .center .social {
+    height: auto;
+}
+
+footer .footer-top .center .links-container .links {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2c508c;
+    margin-top: 8px;
+}
+
+footer .footer-top .center .links-container .links a {
+    text-decoration: none!important;
+}
+
+footer .footer-top .center .social img {
+    margin-top: 20px;
+}
+
+footer .footer-top .right {
+    height: auto;
+}
+
+footer .footer-top .right .mark-img {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #24356a;
+}
+
+footer .footer-top .right .mark-img::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    background: url(img/cc-foro/icons/mark.png) no-repeat center center;
+    height: 25px;
+    width: 20px;
+    left: -10px;
+}
+
+footer .footer-top .right .address {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #24356a;
+}
+
+footer .footer-top .right .address a {
+    text-decoration: none!important;
+}
+
+
+.footer-rights {
+    background-color: rgba(33, 33, 33, 0.78);
+}
+
+.footer-rights p {
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 14px;
+}
+
+.footer-rights a {
+    color: #e3e3e3;
+    text-decoration: none!important;
+}
+
+.footer-rights a:hover,
+.footer-rights a:focus {
+    color: #d3d3d3;
+}
+
+
+
+
+
+/***** Parallax CSS *****/
 .parallax-container {
     position: relative;
     overflow: hidden;
@@ -2271,18 +2703,23 @@ footer .footer-top .right .address a {
     .evaluacion .proceso .col-7.col-sm-4 {
         width: 33.333333333%;
     }
+
+    /* TALLERES */
+    /* CONFERENCIAS */
+    .talleres .conferencias .container .col-sm-2 h3 {
+        font-size: 10px;
+    }
 }
 
 @media(max-width: 767px) {
-    /* WRAPPER */
+    /***** WRAPPER *****/
     .wrapper {
         overflow: hidden;
         margin-top: 50px;
     }
 
 
-
-    /* NAVBAR */
+    /***** NAVBAR *****/
     .navbar {
         min-height: 50px;
     }
@@ -2313,8 +2750,7 @@ footer .footer-top .right .address a {
     }
 
 
-
-    /* FOOTER */
+    /***** FOOTER *****/
     footer .container {
         height: auto;
     }
@@ -2384,8 +2820,7 @@ footer .footer-top .right .address a {
     }
 
 
-
-    /* INDEX */
+    /***** INDEX *****/
     /* BANNER */
     .index .banner h1 {
         font-size: 28px;
@@ -2455,8 +2890,7 @@ footer .footer-top .right .address a {
     }
 
 
-
-    /* FORO */
+    /***** FORO *****/
     /* BANNER */
     .foro .banner {
         height: calc(100vh - 50px);
@@ -2510,9 +2944,6 @@ footer .footer-top .right .address a {
         margin: 0 auto;
     }
 
-
-
-
     /* HISTORIAS */
     .foro .historias-parallax .col-sm-6 {
         text-align: center;
@@ -2529,8 +2960,7 @@ footer .footer-top .right .address a {
     }
 
 
-
-    /* AFILIADOS */
+    /***** AFILIADOS *****/
     /* MODAL */
     .afiliados .modal h2 {
         font-size: 24px;
@@ -2613,8 +3043,7 @@ footer .footer-top .right .address a {
     }
 
 
-
-    /* PREMIO */
+    /***** PREMIO *****/
     /* BANNER */
     .premio .banner .carousel .item {
         height: calc(100vh - 50px);
@@ -2750,8 +3179,7 @@ footer .footer-top .right .address a {
     }
 
 
-
-    /* EVALUACION */
+    /***** EVALUACION *****/
     /* PROCESO */
     .evaluacion .proceso .col-7 {
         width: 100%!important;
@@ -2833,6 +3261,124 @@ footer .footer-top .right .address a {
     .evaluacion .forma .container .form-container input[type=phone] {
         font-size: 16px;
     }
+
+
+    /***** TALLERES *****/
+    /* BANNER */
+    .talleres .banner .container .img-container img {
+        padding: 15px 15px;
+    }
+    .talleres .banner .container h1 {
+        font-size: 22px;
+        top: 50vh;
+        margin: 0px 25px;
+    }
+
+    /* NOSOTROS */
+    .talleres .nosotros h1 {
+        font-size: 24px;
+    }
+    .talleres .nosotros p {
+        font-size: 14px;
+        padding: 0px 25px;
+    }
+    .talleres .nosotros p::after {
+        width: calc(100% - 50px);
+    }
+
+    /* COMO */
+    .talleres .como .container h1 {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+    .talleres .como .container ul {
+        font-size: 14px;
+    }
+
+    /* CONFERENCIAS */
+    .talleres .conferencias h1 {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+    .talleres .conferencias .container .col-sm-2 {
+        margin-bottom: 20px;
+    }
+
+    /* CULTURA */
+    .talleres .cultura .container h1 {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+    .talleres .cultura .container p {
+        font-size: 14px;
+    }
+    .talleres .cultura .container span {
+        font-size: 18px;
+    }
+
+
+    /***** EDUCA *****/
+    /* BANNER */
+    .educa .banner .carousel .item {
+        height: calc(100vh - 50px);
+    }
+    .educa .banner .container {
+        height: calc(100vh - 50px);
+    }
+    .educa .banner .logo {
+        height: 170px;
+    }
+    .educa .banner h1 {
+        font-size: 28px;
+        margin: 0px 25px;
+    }
+
+    /* INFORMACION */
+    .educa .informacion p {
+        font-size: 14px;
+        padding: 0px 25px;
+    }
+
+    /* PROGRAMA */
+    .educa .programa h1 {
+        font-size: 24px;
+    }
+    .educa .programa p {
+        font-size: 14px;
+    }
+
+    /* CONOCE */
+    .educa .conoce .container h1 {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+    .educa .conoce .container p {
+        font-size: 18px;
+    }
+    .educa .conoce .container .col-sm-6 {
+        margin: 0px 0px;
+        height: auto;
+        padding: 0px 50px;
+    }
+    .educa .conoce .container .row .img-container {
+        margin: 0 auto;
+    }
+
+    /* BENEFICIOS */
+    .educa .beneficios h1 {
+        font-size: 24px;
+    }
+    .educa .beneficios ul {
+        font-size: 14px;
+    }
+
+    /* COMO */
+    .educa .como h1 {
+        font-size: 24px;
+    }
+    .educa .como ul {
+        font-size: 14px;
+    }
 }
 
 
@@ -2840,7 +3386,7 @@ footer .footer-top .right .address a {
 
 
 @media(max-width: 480px) {
-    /* FORO */
+    /***** FORO *****/
     /* BANNER */
     .foro .banner {
         height: calc(100vh - 50px);

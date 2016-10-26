@@ -6,17 +6,19 @@
                     <img src="<?php echo bloginfo('template_url').'/'; ?>img/footer/logo.png" alt="Logo" class="img-responsive center-block">
                 </div>
                 <div>
-                    <p>Somos una asociación líder
+                    <p>
+                        Somos una asociación líder
                         sin fines de lucro dedicada al desarrollo
                         e impulso de una cultura de Calidad,
                         Competitividad y Mejora Continua en el
-                        Estado de Chihuahua.</p>
+                        Estado de Chihuahua.
+                    </p>
                 </div>
             </div>
             <div class="col-sm-4 center">
                 <div class="links-container">
                     <div class="links">
-                        <a href="">TALLER EMPRESARIO-EMPRESARIO</a>
+                        <a href="talleres">TALLER EMPRESARIO A EMPRESARIO</a>
                     </div>
                     <div class="links">
                         <a href="">CONFERENCIAS</a>
@@ -33,14 +35,16 @@
             <div class="col-sm-4 right">
                 <div>
                     <p class="mark-img">CHIHUAHUA</p>
-                    <p class="address">Prol. Teófilo Borunda #10820<br/>
+                    <p class="address">
+                        Prol. Teófilo Borunda #10820<br/>
                         Col. Labor de Terrazas C.P. 31625<br/>
                         Edificio Fechac 2do Piso.<br/>
                         Chihuahua,Chih.<br/>
                         TEL. (614) 400-74-79<br/>
                         (614) 400-74-70 y (614) 400-75-01<br/>
                         <br/>
-                        <a href="mailto:aleramos@cchcp.org.mx">aleramos@cchcp.org.mx</a></p>
+                        <a href="mailto:aleramos@cchcp.org.mx">aleramos@cchcp.org.mx</a>
+                    </p>
                 </div>
             </div>
         </div>

@@ -31,6 +31,7 @@
                                <li><a href="<?php if($page != 'index') { echo 'index'; }?>#programas" class="smoothScroll">Programas Institucionales</a></li>
                                 <li><a href="foro">Foro</a></li>
                                 <li><a href="premio">Premio</a></li>
+                                <li><a href="educa">EDUCA</a></li>
                             </ul>
                         </li>
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index'; }?>#afiliados">Afiliaciones</a></li>
