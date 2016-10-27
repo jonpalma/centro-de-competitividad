@@ -191,26 +191,27 @@
                 </h1>
                 <div class="row no-margin">
                     <div class="col-sm-2"></div>
-
                     <div class="col-sm-4">
-                        <div class="img-container">
-                            <a href="taller"><div class="vertical-align">
-                                <img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/1.png" alt="Servicio" class="img-responsive center-block">
-                                <img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/1_.png" alt="Servicio Hover" class="img-responsive center-block hover">
-                                <p class="white">TALLER EMPRESARIO A EMPRESARIO</p>
+                        <a href="taller">
+                            <div class="img-container">
+                                <div class="vertical-align">
+                                    <img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/1.png" alt="Servicio" class="img-responsive center-block">
+                                    <img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/1_.png" alt="Servicio Hover" class="img-responsive center-block hover">
+                                    <p class="white">TALLER EMPRESARIO A EMPRESARIO</p>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-sm-4">
-                        <div class="img-container">
-                            <a href=""><div class="vertical-align">
-                                <img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/2.png" alt="Servicio" class="img-responsive center-block">
-                                <img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/2_.png" alt="Servicio Hover" class="img-responsive center-block hover">
-                                <p class="white">CONSULTORÍAS</p>
+                        <a href="">
+                            <div class="img-container">
+                                <div class="vertical-align">
+                                    <img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/2.png" alt="Servicio" class="img-responsive center-block">
+                                    <img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/2_.png" alt="Servicio Hover" class="img-responsive center-block hover">
+                                    <p class="white">CONSULTORÍAS</p>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-sm-2"></div>
                     <!--
