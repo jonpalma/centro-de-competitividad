@@ -17,6 +17,7 @@
 
 /***** GENERAL STYLES *****/
 a {
+    text-decoration: none;
     outline: none;
 }
 

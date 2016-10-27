@@ -23,9 +23,11 @@
                     <div class="links">
                         <a href="">CONFERENCIAS</a>
                     </div>
-                    <div class="links">
-                        <a href="">DIPLOMADOS</a>
-                    </div>
+                    <!--
+<div class="links">
+<a href="">DIPLOMADOS</a>
+</div>
+-->
                 </div>
                 <div class="social">
                     <a href=""><img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/icons/fb.png" alt=""></a>

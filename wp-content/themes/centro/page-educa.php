@@ -110,7 +110,7 @@
             ?>
             <div class="col-sm-6">
                 <?php
-                //echo '<a href="#video-modal-proyecto'.$counter.'" data-toggle="modal" data-target="#video-modal-proyecto'.$counter.'">';
+                echo '<a href="#video-modal-proyecto'.$counter.'" data-toggle="modal" data-target="#video-modal-proyecto'.$counter.'">';
                 if($counter%2 == 0)
                 {
                     echo '<div class="img-container">';
@@ -123,7 +123,7 @@
                 <img src="<?php echo $video['video_img']; ?>" alt="">
                 <?php
                 echo '</div>';
-                //echo '</a>';
+                echo '</a>';
                 ?>
                 <p>
                     <?php echo $video['video_text']; ?>
