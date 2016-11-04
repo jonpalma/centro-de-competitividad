@@ -56,6 +56,8 @@
     </div>
 </footer>
 
+<?php wp_footer(); ?>
+
 <script src="<?php echo bloginfo('template_url').'/'; ?>js/jquery-1.12.0.min.js"></script>
 <script src="<?php echo bloginfo('template_url').'/'; ?>js/bootstrap.min.js"></script>
 <script src="<?php echo bloginfo('template_url').'/'; ?>js/smoothscroll.js"></script>

@@ -97,108 +97,156 @@
         </div>
         <div class="container spacing">
             <div>
-                <p>
+                <h1>
                     <?php echo CFS() -> get('convocatoria_title'); ?>
-                </p>
+                </h1>
             </div>
-            <div>
-                <a target="_blank" href="<?php echo CFS() -> get('convocatoria_archive'); ?>">
-                    <?php echo CFS() -> get('convocatoria_formulario_title'); ?>
+            <div class="col-sm-6">
+                <h3>Chihuahua</h3>
+                <a href="#modal-chihuahua-form" data-toggle="modal" data-target="#modal-chihuahua-form">
+                    <?php echo CFS() -> get('convocatoria_chihuahua_title'); ?>
                 </a>
             </div>
-        </div>
-    </div>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <!--/* PROYECTOS  */-->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="proyectos" id="proyectos">
-        <div class="container spacing">
-            <p class="title">
-                <?php echo CFS() -> get('proyectos_title'); ?>
-            </p>
-            <?php
-            $arrayProyectos = CFS()->get('proyectos_videos_array');
-            $arrayEnd = end($arrayProyectos);
-            $counter = 0;
-            foreach($arrayProyectos as $proyecto)
-            {
-            ?>
-            <?php
-                if($counter == 0)
-                {
-                    echo '<div class="row">';
-                }
-                else if($counter%2 == 0)
-                {
-                    echo '</div>';
-                    echo '<div class="row">';
-                }
-            ?>
             <div class="col-sm-6">
-                <?php
-                echo '<a href="#video-modal-proyecto'.$counter.'" data-toggle="modal" data-target="#video-modal-proyecto'.$counter.'">';
-                if($counter%2 == 0)
-                {
-                    echo '<div class="img-container">';
-                }
-                else
-                {
-                    echo '<div class="img-container">';
-                }
-                ?>
-                <img src="<?php echo $proyecto['proyecto_img_video']; ?>" alt="">
-                <?php
-                echo '</div>';
-                echo '</a>';
-                ?>
-                <p>
-                    <?php echo $proyecto['proyecto_desc']; ?>
-                </p>
-                <?php
-                echo '<div class="modal fade video" id="video-modal-proyecto'.$counter.'" role="dialog" tabindex="-1">';
-                ?>
-                <div class="modal-dialog">
+                <h3>Cd. Juarez</h3>
+                <a href="#modal-juarez-form" data-toggle="modal" data-target="#modal-juarez-form">
+                    <?php echo CFS() -> get('convocatoria_juarez_title'); ?>
+                </a>
+            </div>
+            <!-- MODALS -->
+            <div class="modal fade" tabindex="-1" role="dialog" id="modal-chihuahua-form">
+                <div class="modal-dialog" role="document">
                     <div class="modal-content">
-                        <div class="modal-body">
-                            <iframe width="560" height="315" src="<?php echo $proyecto['proyecto_link_video']; ?>" frameborder="0" allowfullscreen></iframe>
-                            <button type="button" data-dismiss="modal" aria-label="Close">Cerrar Video</button>
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                         </div>
+                        <div class="modal-body">
+                            <h2>
+                                Convocatoria Chihuahua
+                            </h2>
+                            <?php echo do_shortcode('[contact-form-7 id="108" title="Formulario Foro - Chihuahua"]'); ?>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+                <!-- this div is close in the [contact-form-7] -->
+                <div class="modal fade" tabindex="-1" role="dialog" id="modal-juarez-form">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2>
+                                    Convocatoria Cd. Juarez
+                                </h2>
+                                <?php echo do_shortcode('[contact-form-7 id="109" title="Formulario Foro - Juarez"]'); ?>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                    <!-- this div is close in the [contact-form-7] -->
+                </div>
+                    <!--
+                    <a target="_blank" href="<?php echo CFS() -> get('convocatoria_juarez_archive'); ?>">
+                    </a>
+                    <a target="_blank" href="<?php echo CFS() -> get('convocatoria_chihuahua_archive'); ?>">
+                    </a>
+                    -->
+            </div>
+            <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+            <!--/* PROYECTOS  */-->
+
+            <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <div class="proyectos" id="proyectos">
+                <div class="container spacing">
+                    <p class="title">
+                        <?php echo CFS() -> get('proyectos_title'); ?>
+                    </p>
+                    <?php
+                    $arrayProyectos = CFS()->get('proyectos_videos_array');
+                    $arrayEnd = end($arrayProyectos);
+                    $counter = 0;
+                    foreach($arrayProyectos as $proyecto)
+                    {
+                    ?>
+                    <?php
+                        if($counter == 0)
+                        {
+                            echo '<div class="row">';
+                        }
+                        else if($counter%2 == 0)
+                        {
+                            echo '</div>';
+                            echo '<div class="row">';
+                        }
+                    ?>
+                    <div class="col-sm-6">
+                        <?php
+                        echo '<a href="#video-modal-proyecto'.$counter.'" data-toggle="modal" data-target="#video-modal-proyecto'.$counter.'">';
+                        if($counter%2 == 0)
+                        {
+                            echo '<div class="img-container">';
+                        }
+                        else
+                        {
+                            echo '<div class="img-container">';
+                        }
+                        ?>
+                        <img src="<?php echo $proyecto['proyecto_img_video']; ?>" alt="">
+                        <?php
+                        echo '</div>';
+                        echo '</a>';
+                        ?>
+                        <p>
+                            <?php echo $proyecto['proyecto_desc']; ?>
+                        </p>
+                        <?php
+                        echo '<div class="modal fade video" id="video-modal-proyecto'.$counter.'" role="dialog" tabindex="-1">';
+                        ?>
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <iframe width="560" height="315" src="<?php echo $proyecto['proyecto_link_video']; ?>" frameborder="0" allowfullscreen></iframe>
+                                    <button type="button" data-dismiss="modal" aria-label="Close">Cerrar Video</button>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+                        echo '</div>';
+                        ?>
+                    </div>
+                    <?php
+                        $counter++;
+                    }
+                    echo '</div>';
+                    ?>
+                </div>
+            </div>
+            <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+            <!--/* HISTORIAS  */-->
+
+            <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+            <div class="historias-parallax parallax-container" id="historias-parallax">
+                <div class="parallax">
+                    <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/parallax/par2.jpg" alt="Parallax">
+                </div>
+                <div class="container spacing">
+                    <div class="col-sm-6 left-side">
+                        <p>
+                            <?php echo CFS() -> get('historias_title'); ?>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 right-side">
+                        <a target="_blank" href="<?php echo CFS() -> get('historias_archive'); ?>">
+                            <?php echo CFS() -> get('historias_download_title'); ?>
+                        </a>
                     </div>
                 </div>
-                <?php
-                echo '</div>';
-                ?>
-            </div>
-            <?php
-                $counter++;
-            }
-            echo '</div>';
-            ?>
-        </div>
-    </div>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <!--/* HISTORIAS  */-->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="historias-parallax parallax-container" id="historias-parallax">
-        <div class="parallax">
-            <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/parallax/par2.jpg" alt="Parallax">
-        </div>
-        <div class="container spacing">
-            <div class="col-sm-6 left-side">
-                <p>
-                    <?php echo CFS() -> get('historias_title'); ?>
-                </p>
-            </div>
-            <div class="col-sm-6 right-side">
-                <a target="_blank" href="<?php echo CFS() -> get('historias_archive'); ?>">
-                    <?php echo CFS() -> get('historias_download_title'); ?>
-                </a>
             </div>
         </div>
-    </div>
-</div>
-<?php include('footer.php'); ?>
+        <?php include('footer.php'); ?>

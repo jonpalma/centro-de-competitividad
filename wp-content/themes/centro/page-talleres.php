@@ -120,15 +120,15 @@
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <!--/* CONFERENCIAS-INFO */-->
+    <!--/* CONFERENCIASINFO */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="conferencias-info" id="conferencias-info">
+    <div class="conferenciasinfo" id="conferenciasinfo">
         <div class="bg-container">
             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-talleres/cultura/bg.jpg" alt="">
         </div>
         <div class="container light-spacing">
-            <div class="text tab-content hidden-xs">
+            <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active" id="logo1">
                     <h1>
                         <?php echo CFS() -> get('planeacion_title'); ?>

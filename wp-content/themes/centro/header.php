@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CChCP</title>
         <link rel="stylesheet" href="<?php echo bloginfo('template_url').'/'; ?>css/bootstrap.min.css">
+        <?php wp_head(); ?>
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     </head>
     <body>
@@ -26,9 +27,8 @@
                         <li class="active"><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index'; }?>#index">Inicio</a></li>
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index'; }?>#conocenos">Conócenos</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle vertical-align" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programas Institucionales <span class="caret"></span></a>
+                            <a href="" class="dropdown-toggle vertical-align" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programas Institucionales <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                               <li><a href="<?php if($page != 'index') { echo 'index'; }?>#programas" class="smoothScroll">Programas Institucionales</a></li>
                                 <li><a href="foro">Foro</a></li>
                                 <li><a href="premio">Premio</a></li>
                                 <li><a href="educa">EDUCA</a></li>

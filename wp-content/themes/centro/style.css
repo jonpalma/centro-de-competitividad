@@ -667,6 +667,60 @@ select:-moz-focusring {
 
 
 /***** FORO *****/
+/* MODAL */
+.foro .modal {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foro .modal h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(36, 53, 106, 1);
+    margin-bottom: 25px;
+}
+
+.foro .modal p {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(115, 115, 115, 1);
+}
+
+.foro .modal {
+    margin: 50px 0px;
+}
+
+.foro .modal input[type=text],
+.foro .modal input[type=email] {
+    font-size: 16px;
+    color: rgba(115, 115, 115, 1);
+    width: 100%;
+    min-height: 45px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border: 1px solid rgba(115, 115, 115, 1);
+    background-color: transparent;
+}
+
+.foro .modal .modal-body {
+    height: auto;
+}
+
+.foro .modal .modal-footer {
+    text-align: center;
+}
+
+.foro .modal input[type=submit] {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    height: 40px;
+    padding: 5px 20px;
+    background-color: rgba(25, 32, 70, 1);
+    border-radius: 5px;
+    border: none;
+}
+
 /* BANNER */
 .foro .banner {
     height: calc(100vh - 80px);
@@ -796,36 +850,42 @@ select:-moz-focusring {
 
 /* CONOCE-PARALLAX */
 .foro .conoce-parallax {
+    font-family: 'Montserrat', sans-serif;
     height: 400px;
 }
 
-.foro .conoce-parallax .container p {
-    font-family: 'Montserrat', sans-serif;
+.foro .conoce-parallax .container h1 {
     font-weight: 700;
     font-size: 28px;
     color: #f8f8fa;
     text-align: center;
 }
 
+.foro .conoce-parallax .container h3 {
+    text-align: center;
+    font-size: 22px;
+    color: #f8f8fa;
+    margin-top: 40px;
+}
+
 .foro .conoce-parallax .container a {
-    text-decoration: none!important;
     position: absolute;
     text-align: center;
-    width: 400px;
+    font-size: 22px;
+    color: #171718;
+    width: 75%;
     height: 50px;
+    line-height: 50px;
     right: 0;
     left: 0;
     margin: 0 auto;
-    margin-top: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    color: #171718;
+    margin-top: 10px;
     background-color: #00b82b;
     border-radius: 8px;
-    line-height: 50px;
+    transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
-    transition: all 300ms ease;
+    text-decoration: none!important;
 }
 
 .foro .conoce-parallax .container a:hover {
@@ -2173,6 +2233,11 @@ select:-moz-focusring {
     overflow: hidden;
 }
 
+.talleres .conferencias .container .row a {
+    text-decoration: none!important;
+    outline: none!important;
+}
+
 .talleres .conferencias .container .col-sm-2 .img-container {
     left: 0;
     right: 0;
@@ -2213,19 +2278,19 @@ select:-moz-focusring {
 }
 
 /* CONFERENCIAS-INFO */
-.talleres .conferencias-info {
+.talleres .conferenciasinfo {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     color: rgba(255, 255, 255, 1);
     overflow: hidden;
 }
 
-.talleres .conferencias-info .bg-container {
+.talleres .conferenciasinfo .bg-container {
     height: 100%;
     width: 100%;
 }
 
-.talleres .conferencias-info .bg-container img {
+.talleres .conferenciasinfo .bg-container img {
     position: absolute;
     min-height: 100%;
     min-width: 100%;
@@ -2236,20 +2301,26 @@ select:-moz-focusring {
     -moz-transform: translateX(-50%);
 }
 
-.talleres .conferencias-info .container h1 {
+.talleres .conferenciasinfo .container {
+    transition: height 300ms ease;
+    -webkit-transition: height 300ms ease;
+    -moz-transition: height 300ms ease;
+}
+
+.talleres .conferenciasinfo .container h1 {
     position: relative;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 80px;
 }
 
-.talleres .conferencias-info .container p {
+.talleres .conferenciasinfo .container p {
     position: relative;
     font-weight: 500;
     font-size: 18px;
 }
 
-.talleres .conferencias-info .container span {
+.talleres .conferenciasinfo .container span {
     font-weight: 700;
     font-size: 22px;
 }
