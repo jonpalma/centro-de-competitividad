@@ -386,6 +386,12 @@ a {
 }
 
 /* BLOG */
+.index .blog {
+    height: 500px;
+    background: url(img/blog/bg.jpg) no-repeat center center;
+    background-size: 100%;
+}
+
 .index .blog .carousel-control {
     background-image: none;
     width: 50px;
@@ -647,10 +653,6 @@ select:-moz-focusring {
     display: inline-block;
     width: 45px;
     height: 45px;
-}
-
-.index .contacto .text-right img {
-    width: 100%;
 }
 
 .index .contacto .col-xs-5 {
