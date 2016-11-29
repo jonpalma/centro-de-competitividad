@@ -37,7 +37,9 @@
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index'; }?>#afiliados">Afiliaciones</a></li>
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index'; }?>#servicios">Servicios</a></li>
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index'; }?>#blog">Blog</a></li>
+                        <!--
                         <li><a class="vertical-align smoothScroll" href="<?php if($page != 'index') { echo 'index'; }?>#">Preguntas Frecuentes</a></li>
+                        -->
                         <li><a class="vertical-align smoothScroll email-icon" href="<?php if($page != 'index') { echo 'index'; }?>#contacto">Contacto</a></li>
 
                     </ul>

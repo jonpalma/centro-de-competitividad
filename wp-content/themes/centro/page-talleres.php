@@ -70,7 +70,7 @@
                             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-talleres/conferencias/1.png" alt="">
                         </div>
                         <h3>
-                            PLANEACIÓN ESTRATÉGICA
+                           <?php echo CFS() -> get('planeacion_title'); ?>
                         </h3>
                     </a>
                 </div>
@@ -80,7 +80,7 @@
                             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-talleres/conferencias/2.png" alt="">
                         </div>
                         <h3>
-                            ADMINISTRACIÓN ESBELTA
+                           <?php echo CFS() -> get('administracion_title'); ?>
                         </h3>
                     </a>
                 </div>
@@ -90,7 +90,7 @@
                             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-talleres/conferencias/3.png" alt="">
                         </div>
                         <h3>
-                            INNOVACIÓN Y COMPETITIVIDAD
+                           <?php echo CFS() -> get('innovacion_title'); ?>
                         </h3>
                     </a>
                 </div>
@@ -100,7 +100,7 @@
                             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-talleres/conferencias/4.png" alt="">
                         </div>
                         <h3>
-                            CULTURA ORGANIZACIONAL
+                           <?php echo CFS() -> get('cultura_title'); ?>
                         </h3>
                     </a>
                 </div>
@@ -110,7 +110,7 @@
                             <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-talleres/conferencias/5.png" alt="">
                         </div>
                         <h3>
-                            ESTRATEGIA COMERCIAL
+                           <?php echo CFS() -> get('estrategia_title'); ?>
                         </h3>
                     </a>
                 </div>

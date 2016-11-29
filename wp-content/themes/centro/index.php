@@ -190,7 +190,7 @@
                     <?php echo CFS() -> get('servicios_title'); ?>
                 </h1>
                 <div class="row no-margin">
-                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4"></div>
                     <div class="col-sm-4">
                         <a href="taller">
                             <div class="img-container">
@@ -202,19 +202,19 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4">
-                        <a href="">
-                            <div class="img-container">
-                                <div class="vertical-align">
-                                    <img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/2.png" alt="Servicio" class="img-responsive center-block">
-                                    <img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/2_.png" alt="Servicio Hover" class="img-responsive center-block hover">
-                                    <p class="white">CONSULTORÍAS</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4"></div>
                     <!--
+<div class="col-sm-4">
+<a href="">
+<div class="img-container">
+<div class="vertical-align">
+<img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/2.png" alt="Servicio" class="img-responsive center-block">
+<img src="<?php echo bloginfo('template_url').'/'; ?>img/servicios/2_.png" alt="Servicio Hover" class="img-responsive center-block hover">
+<p class="white">CONSULTORÍAS</p>
+</div>
+</div>
+</a>
+</div>
 <div class="col-sm-4">
 <div class="img-container">
 <div class="vertical-align">
@@ -231,14 +231,9 @@
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <!--/* BLOG  */-->
+    <!--/* BLOG */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="blog">
-        
-    </div>
-    
-    <!--
     <div class="blog light-spacing" id="blog">
         <div class="container text-center">
             <h1 class="heading blue">
@@ -246,7 +241,6 @@
             </h1>
             <div id="carousel-blog" class="carousel slide" data-ride="carousel" data-interval="false">
                 <!-- Wrapper for slides -->
-                <!--
                 <div class="carousel-inner" role="listbox">
                     <?php
                     $counter = 0;
@@ -256,7 +250,7 @@
                     }
                     ?>									  
                     <?php
-                    query_posts('showposts=12');
+                    query_posts('showposts=6');
                     if (have_posts())
                     {
                         while (have_posts())
@@ -313,9 +307,7 @@
                     wp_reset_query();
                     ?>
                 </div>
-                -->
                 <!-- Controls -->
-                <!--
                 <a class="left carousel-control" href="#carousel-blog" role="button" data-slide="prev">
                     <span class="sr-only">Previous</span>
                 </a>
@@ -323,10 +315,9 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+            <a href="blog" class="link">Ver Más</a>
         </div>
     </div>
-    -->
-    
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* CONTACTO  */-->

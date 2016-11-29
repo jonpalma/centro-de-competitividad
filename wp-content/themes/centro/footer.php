@@ -20,10 +20,10 @@
                     <div class="links">
                         <a href="talleres">TALLER EMPRESARIO A EMPRESARIO</a>
                     </div>
-                    <div class="links">
-                        <a href="">CONFERENCIAS</a>
-                    </div>
                     <!--
+<div class="links">
+<a href="">CONFERENCIAS</a>
+</div>
 <div class="links">
 <a href="">DIPLOMADOS</a>
 </div>
