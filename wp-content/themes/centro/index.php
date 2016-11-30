@@ -350,8 +350,8 @@
                         </div>
                         <div class="col-sm-12 col-xs-5">
                             <div class="text-center">
-                                <a href=""><img src="<?php echo bloginfo('template_url').'/'; ?>img/icons/fb.png" alt="facebook"></a>
-                                <a href=""><img src="<?php echo bloginfo('template_url').'/'; ?>img/icons/yt.png" alt="Youtube"></a>
+                                <a target="_blank" href="https://www.facebook.com/chihuahuacompetitividad/?fref=ts"><img src="<?php echo bloginfo('template_url').'/'; ?>img/icons/fb.png" alt="facebook"></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCawYNcpp9fAoQkA_fLEoczg"><img src="<?php echo bloginfo('template_url').'/'; ?>img/icons/yt.png" alt="Youtube"></a>
                             </div>
                         </div>
                     </div>

@@ -3,10 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CChCP</title>
+        <meta name="description" content="El Centro de Competitividad Chihuahua fue fundado a principios de los 90´s como Centro Chihuahuense para la Calidad y Productividad , una institución dedicada a fortalecer la competitividad en el estado a través del desarrollo empresarial y la calidad educativa.">
+        <meta name="keywords" content="centro,competitividad,chihuahua,innovacion,calidad,competitividad,foro,estatal,educa,premio,evaluacion,afiliados,empresariado,fechac,empresas,excelencia,satisfaccion,liderazgo,calidad,alianzas">
+        <meta name="author" content="Mixen">
+        <link rel="shortcut icon" type="img/png" href="<?php echo bloginfo('template_url').'/'; ?>img/favicon.ico"/>
         <link rel="stylesheet" href="<?php echo bloginfo('template_url').'/'; ?>css/bootstrap.min.css">
-        <?php wp_head(); ?>
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+        <?php wp_head(); ?>
+        <title>CChCP</title>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">

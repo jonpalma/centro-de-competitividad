@@ -30,8 +30,8 @@
 -->
                 </div>
                 <div class="social">
-                    <a href=""><img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/icons/fb.png" alt=""></a>
-                    <a href=""><img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/icons/youtube.png" alt=""></a>
+                    <a target="_blank" href="https://www.facebook.com/chihuahuacompetitividad/?fref=ts"><img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/icons/fb.png" alt=""></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCawYNcpp9fAoQkA_fLEoczg"><img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-foro/icons/youtube.png" alt=""></a>
                 </div>
             </div>
             <div class="col-sm-4 right">

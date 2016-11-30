@@ -39,7 +39,7 @@
                 <p class="share-text">
                     Compartir:
                 </p>
-                <a target="_blank" href="http://www.facebook.com/sharer/share.php?u=<?php get_the_permalink(); ?>&title=<?php get_the_title(); ?>">
+                <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>&title=<?php the_title(); ?>">
                     <img src="<?php echo bloginfo('template_url').'/'; ?>img/cc-blog/icons/fb.png" alt="">
                 </a>
             </div>
